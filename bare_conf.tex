@@ -380,7 +380,7 @@ Fax: (888) 555--1212}}
 % As a general rule, do not put math, special symbols or citations
 % in the abstract
 \begin{abstract}
-The abstract goes here.
+Alguns sistemas devem responder a milhares ou milhões de solicitações simultâneas. Estes sistemas devem ser adequadamente testados para garantir o correto funcionamento da aplicação a partir de um nível de serviço esperado. Testes de stress baseados em pesquisa visam principalmente encontrar cenários de teste que violam as restrições de tempo especificadas. O objetivo deste artigo é identificar cenários de teste que não atendem aos requisitos de tempo de resposta especificados em um sistema. A pesquisa propõe uma abordagem metaheurística híbrida que usa algoritmos genéticos, simulated annealing  e algoritmos de busca tabu para uso em modelos de carga em um teste de stress. Dois experimentos foram conduzidos para validar a abordagem proposta. Para a condução dos experimentos, uma ferramenta denominada IAdapter, um plugin JMeter utilizado para a realização de testes de estresse baseado em pesquisa foi desenvolvida. A primeira experiência foi realizada em um componente emulado, e a segundo foi realizado utilizando uma aplicação Moodle instalada em um ambiente controlado. Em ambos os experimentos, o uso de uma abordagem metaheurística híbrida produziu melhores resultados que utilizar uma abordagem com um único algoritmo isolado.
 \end{abstract}
 
 % no keywords
@@ -399,15 +399,16 @@ The abstract goes here.
 \IEEEpeerreviewmaketitle
 
 
+\section{Introdução}
 
-\section{Introduction}
-% no \IEEEPARstart
-This demo file is intended to serve as a ``starter file''
-for IEEE conference papers produced under \LaTeX\ using
-IEEEtran.cls version 1.8b and later.
-% You must have at least 2 lines in the paragraph with the drop letter
-% (should never be an issue)
-I wish you the best of success.
+Muitos sistemas suportar centenas ou milhares de usuários concorrentes. A falha em escalar correntamente este conjunto de usuários pode resultar em falhas ou indisponibilidade do sistema \cite{Jiang2010}. Para garantir a qualidade destes sistemas, pode ser necessário executar procedimentos de testes, tais como testes de stress e carga \cite{Jiang2009}. 
+
+The explosive growth of the Internet has contributed to the increased need for applications that perform at an appropriate speed. Performance problems are often detected late in the application life cycle, and the later they are discovered, the greater the cost to fix them \cite{Molyneaux2009}.
+
+
+O uso de testes de stress é uma prática cadaa vez mais comum, levando-se em conta do constante incremento do número de usuários nas aplicações disponiveis na internet. Neste cenário, o inadequado tratamento do acesso concorrente ou simultâneo, criado pelos usuários do sistema, pode resultar em em falhas críticas ou afetar negativamente a percepção de umaempresa pelos seus clientes.\cite{Draheim2006b} \cite{Jiang2010}. 
+
+
 
 \hfill mds
  
