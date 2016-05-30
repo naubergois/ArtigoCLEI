@@ -1,4 +1,3 @@
-
 %% bare_conf.tex
 %% V1.4b
 %% 2015/08/26
@@ -52,38 +51,6 @@
 
 
 \documentclass[conference]{IEEEtran}
-% Some Computer Society conferences also require the compsoc mode option,
-% but others use the standard conference format.
-%
-% If IEEEtran.cls has not been installed into the LaTeX system files,
-% manually specify the path to it like:
-% \documentclass[conference]{../sty/IEEEtran}
-
-
-
-
-
-% Some very useful LaTeX packages include:
-% (uncomment the ones you want to load)
-
-
-% *** MISC UTILITY PACKAGES ***
-%
-%\usepackage{ifpdf}
-% Heiko Oberdiek's ifpdf.sty is very useful if you need conditional
-% compilation based on whether the output is pdf or dvi.
-% usage:
-% \ifpdf
-%   % pdf code
-% \else
-%   % dvi code
-% \fi
-% The latest version of ifpdf.sty can be obtained from:
-% http://www.ctan.org/pkg/ifpdf
-% Also, note that IEEEtran.cls V1.7 and later provides a builtin
-% \ifCLASSINFOpdf conditional that works the same way.
-% When switching from latex to pdflatex and vice-versa, the compiler may
-% have to be run twice to clear warning/error messages.
 
 
 
@@ -306,7 +273,55 @@
 % There should be no need to do such things with IEEEtran.cls V1.6 and later.
 % (Unless specifically asked to do so by the journal or conference you plan
 % to submit to, of course. )
+\usepackage{authblk}
+\usepackage{pifont} 
+\usepackage{import}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{graphicx,url}
+\usepackage{placeins}
+\usepackage{adjustbox}
+\usepackage[english]{babel}
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage{listings}
+\usepackage[svgnames]{xcolor} 
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{calc} 
+\usepackage{array,url,kantlipsum}
+\usepackage{lscape}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{txfonts}
+\usepackage{colortbl}%
+  \newcommand{\myrowcolour}{\rowcolor[gray]{0.925}}
+\newenvironment{Figure}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
+  
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{\colorbox[RGB]{60,100,180}{\parbox{0.40\textwidth - 2 \fboxsep}{\hspace{8pt}#1#2#3}}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white, singlelinecheck=false, margin=0pt, font={bf,footnotesize}}
 
+\def\@maketitle{%
+  \newpage
+  \null
+  \vskip 2em%
+  \begin{center}%
+  \let \footnote \thanks
+    {\LARGE \@title \par}%
+    \vskip 1.5em%
+    {\large
+      \lineskip .5em%
+      \begin{tabular}[t]{c}% <------
+        \@author%            <------ Authors
+      \end{tabular}\par}%    <------
+    \vskip 1em%
+    {\large \@date}%
+  \end{center}%
+  \par
+  \vskip 1.5em}
 
 % correct bad hyphenation here
 \hyphenation{op-tical net-works semi-conduc-tor}
@@ -320,253 +335,631 @@
 % not capitalized unless they are the first or last word of the title.
 % Linebreaks \\ can be used within to get better formatting as desired.
 % Do not put math or special symbols in the title.
-\title{Bare Demo of IEEEtran.cls\\ for IEEE Conferences}
+\title{Improving Stress Search Based Testing using a Hybrid Metaheuristic Approach}
 
 
-% author names and affiliations
-% use a multiple column layout for up to three different
-% affiliations
-\author{\IEEEauthorblockN{Michael Shell}
-\IEEEauthorblockA{School of Electrical and\\Computer Engineering\\
-Georgia Institute of Technology\\
-Atlanta, Georgia 30332--0250\\
-Email: http://www.michaelshell.org/contact.html}
+
+\author{ \alignauthor Francisco Nauber Bernardo Gois\\
+Servi\c{c}o Federal de Processamento de Dados\\
+Avenida Pontes Vieria ,832, Fortaleza, Cear\'a, Brazil\\
+francisco.gois@serpro.gov.br\\
 \and
-\IEEEauthorblockN{Homer Simpson}
-\IEEEauthorblockA{Twentieth Century Fox\\
-Springfield, USA\\
-Email: homer@thesimpsons.com}
+\alignauthor Pedro Porf\'irio Muniz de Farias\\
+Universidade de Fortaleza\\
+Av. Washington Soares, 1321, Fortaleza, Cear\'a, Brazil\\
+porfirio@unifor.br\\
 \and
-\IEEEauthorblockN{James Kirk\\ and Montgomery Scott}
-\IEEEauthorblockA{Starfleet Academy\\
-San Francisco, California 96678--2391\\
-Telephone: (800) 555--1212\\
-Fax: (888) 555--1212}}
-
-% conference papers do not typically use \thanks and this command
-% is locked out in conference mode. If really needed, such as for
-% the acknowledgment of grants, issue a \IEEEoverridecommandlockouts
-% after \documentclass
-
-% for over three affiliations, or if they all won't fit within the width
-% of the page, use this alternative format:
-% 
-%\author{\IEEEauthorblockN{Michael Shell\IEEEauthorrefmark{1},
-%Homer Simpson\IEEEauthorrefmark{2},
-%James Kirk\IEEEauthorrefmark{3}, 
-%Montgomery Scott\IEEEauthorrefmark{3} and
-%Eldon Tyrell\IEEEauthorrefmark{4}}
-%\IEEEauthorblockA{\IEEEauthorrefmark{1}School of Electrical and Computer Engineering\\
-%Georgia Institute of Technology,
-%Atlanta, Georgia 30332--0250\\ Email: see http://www.michaelshell.org/contact.html}
-%\IEEEauthorblockA{\IEEEauthorrefmark{2}Twentieth Century Fox, Springfield, USA\\
-%Email: homer@thesimpsons.com}
-%\IEEEauthorblockA{\IEEEauthorrefmark{3}Starfleet Academy, San Francisco, California 96678-2391\\
-%Telephone: (800) 555--1212, Fax: (888) 555--1212}
-%\IEEEauthorblockA{\IEEEauthorrefmark{4}Tyrell Inc., 123 Replicant Street, Los Angeles, California 90210--4321}}
+\alignauthor Andr\'e Lu\'is Vasconcelos Coelho\\
+Universidade de Fortaleza, Av. Washington Soares, 1321\\
+Fortaleza, Cear\'a, Brazil\\
+acoelho@unifor.br\\
+\and 
+\alignauthor Thiago Monteiro Barbosa\\
+Servi\c{c}o Federal de Processamento de Dados\\
+Avenida Pontes Vieria ,832, Fortaleza, Cear\'a, Brazil\\
+thiago.monteiro@serpro.gov.br
+}
 
 
 
 
-% use for special paper notices
-%\IEEEspecialpapernotice{(Invited Paper)}
-
-
-
-
-% make the title area
 \maketitle
-
-% As a general rule, do not put math, special symbols or citations
-% in the abstract
 \begin{abstract}
-Alguns sistemas devem responder a milhares ou milhões de solicitações simultâneas. Estes sistemas devem ser adequadamente testados para garantir o correto funcionamento da aplicação a partir de um nível de serviço esperado. Testes de stress baseados em pesquisa visam principalmente encontrar cenários de teste que violam as restrições de tempo especificadas. O objetivo deste artigo é identificar cenários de teste que não atendem aos requisitos de tempo de resposta especificados em um sistema. A pesquisa propõe uma abordagem metaheurística híbrida que usa algoritmos genéticos, simulated annealing  e algoritmos de busca tabu para uso em modelos de carga em um teste de stress. Dois experimentos foram conduzidos para validar a abordagem proposta. Para a condução dos experimentos, uma ferramenta denominada IAdapter, um plugin JMeter utilizado para a realização de testes de estresse baseado em pesquisa foi desenvolvida. A primeira experiência foi realizada em um componente emulado, e a segundo foi realizado utilizando uma aplicação Moodle instalada em um ambiente controlado. Em ambos os experimentos, o uso de uma abordagem metaheurística híbrida produziu melhores resultados que utilizar uma abordagem com um único algoritmo isolado.
+ Some software systems must respond to thousands or millions of concurrent requests. These systems must be properly tested to ensure that they can function correctly under the expected load. A common use of stress search-based testing is to find test scenarios that produce execution times that violate the timing constraints specified. The main purpose of this paper is determine if hybrid algorithms are superior to single metaheuristics when solving stress testing problems. The secondary objective of this paper is to improve Stress Test automation using a solution where the whole process of stress and performance tests, was carried out without the need for monitoring by a tester. The solution automatically selected the next scenarios to be run up to the limit of executions previously established. The research proposes a hybrid metaheuristic approach that uses genetic algorithms, simulated annealing, and Tabu search algorithms for use in stress test models. A tool named IAdapter, a JMeter plugin used for performing search-based load, performance, or stress tests, was developed. Two experiments were conducted to validate the proposed approach. The first experiment was performed on an emulated component, and the second one was performed using an installed Moodle application. In both experiments, the use of a hybrid metaheuristic approach produced better fitness values.  In the second experiment, the whole process of stress and performance tests, which took 3 days and about 1800 executions, was carried out without a tester. The tool automatically selected the next scenarios to be run up to the limit of six generations previously established.
 \end{abstract}
 
-% no keywords
-
-
-
-
-% For peer review papers, you can put extra information on the cover
-% page as needed:
-% \ifCLASSOPTIONpeerreview
-% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
-% \fi
-%
-% For peerreview papers, this IEEEtran command inserts a page break and
-% creates the second title. It will be ignored for other modes.
 \IEEEpeerreviewmaketitle
 
 
-\section{Introdução}
 
-Muitos sistemas suportar centenas ou milhares de usuários concorrentes. A falha em escalar correntamente este conjunto de usuários pode resultar em falhas ou indisponibilidade do sistema \cite{Jiang2010}. Para garantir a qualidade destes sistemas, pode ser necessário executar procedimentos de testes, tais como testes de stress e carga \cite{Jiang2009}. 
+
+%\widowpenalties 1 10000
+%\raggedbottom
+
+
+
+\section{Introduction}
+
+Many systems must support concurrent access by hundreds or thousands of users. Failure to scale users results in catastrophic failures and unfavorable media coverage \cite{Jiang2010}. 
 
 The explosive growth of the Internet has contributed to the increased need for applications that perform at an appropriate speed. Performance problems are often detected late in the application life cycle, and the later they are discovered, the greater the cost to fix them \cite{Molyneaux2009}.
 
+The use of stress testing is an increasingly common practice owing to the increasing number of users. In this scenario, the inadequate treatment of a workload generated by concurrent or simultaneous access, generated by system users, can result in highly critical failures and negatively affect the customers's perception of the company \cite{Draheim2006b} \cite{Jiang2010}. 
 
-O uso de testes de stress é uma prática cadaa vez mais comum, levando-se em conta do constante incremento do número de usuários nas aplicações disponiveis na internet. Neste cenário, o inadequado tratamento do acesso concorrente ou simultâneo, criado pelos usuários do sistema, pode resultar em em falhas críticas ou afetar negativamente a percepção de umaempresa pelos seus clientes.\cite{Draheim2006b} \cite{Jiang2010}. 
+Stress testing determines the responsiveness, throughput, reliability, or scalability of a system under a given workload. The quality of the results of a system's load tests is closely linked to the implementation of the workload strategy. The performance of many applications depends on the load applied under different conditions. In some cases, performance degradation and failures arise only in stress conditions \cite{Garousi2010} \cite{Jiang2010}.
+
+A stress test uses a set of workloads that consist of many types of usage scenarios and a combination of different numbers of users. A load is typically based on an operational profile. Different parts of an application should be tested on various parameters and stress conditions \cite{Babbar2011}. The correct application of a stress test should cover most parts of an application above the expected load conditions (stress test)\cite{Draheim2006b}.
+
+
+Fig. \ref{fig:example} shows an example of a system under test with three pages (the main page, profile page, and search page) and six possible users. From the combinations of users and application pages, various scenarios can be created such as scenarios 1 and 2 shown in the figure. The first scenario presents a test that has passed, and the second scenario presents a test that has an HTTP error of 404.
+
+\begin{figure}[ht]
+\centering
+\caption{Possible test scenarios for a hypothetical application}
+\includegraphics[width=0.4\textwidth]{./images/diagram.png}
+\label{fig:example}
+\end{figure}
+
+A stress test usually lasts for several hours or even a few days and only tests a limited number of workloads. The major challenge is to find the workloads that expose a major number of errors and to discover the maximum number of users supported by an application under test \cite{Barna2011}. 
+
+Search-based test is seen as a promising approach for verifying timing constraints \cite{Afzal2009a}. A common objective of a load search-based test is to find test scenarios that produce execution times that violate the specified timing constraints \cite{Sullivan}. 
+
+The research have two objectives:
+
+\begin{itemize}
+\item  We wish to determine if hybrid algorithms are superior to single metaheuristics when solving stress testing problem and and improve the process of stress testing with a tool that evolves the test model during its execution. 
+\item  We wish to improve stress test automation using a solution where the whole process of stress tests, was carried out without the need for monitoring by a tester. The solution automates the search for failure points of an application under test and automatically selected the next scenarios to be run up to the limit of executions previously established.
+\end{itemize}
+
+
+Fig. \ref{fig:solution} shows an example where IAdapter stress test automation finds two test scenarios. The first scenario presents a test that has an HTTP error of 500, and the second scenario presents a test that has a response time major than 30 seconds. 
+
+\begin{figure}[ht]
+\centering
+\caption{Illustrative example of the use of the presented research work approach}
+\includegraphics[width=0.25\textwidth]{./images/solution.png}
+\label{fig:solution}
+\end{figure}
+
+
+The paper proposes the use of a hybrid metaheuristic approach that combines genetic algorithms, simulated annealing, and Tabu search algorithms in stress tests. A tool named IAdapter (www.iadapter.org, github.com/naubergois/newiadapter), a JMeter plugin for performing search-based load tests, was developed. Two experiments were conducted to validate the proposed approach. The first experiment was performed on an emulated component, and the second one was performed using an installed Moodle application.
+The paper proposes the use of a hybrid metaheuristic approach that combines genetic algorithms, simulated annealing, and Tabu search algorithms in load, performance, and stress evolutionary tests.
+
+
+The remainder of the paper is organized as follows. Section 2 presents a brief introduction about load, performance, and stress tests. Section 3 presents concepts about the workload model. Section 4 presents concepts about hybrid metaheuristic algorithms. Section 5 presents the research-proposed approach. Section 6 presents the IAdapter tool. Section 7 shows the results of two experiments performed using the IAdapter plugin. Section 8 discusses the related work. Conclusions and further work are presented in Section 9.
 
 
 
-\hfill mds
+
+\section{Load, Performance and Stress Test}
+
+Load, performance, and stress testing are typically done to locate bottlenecks in a system, to support a performance-tuning effort, and to collect other performance-related indicators to help stakeholders get informed about the quality of the application being tested \cite{Sandler2004} \cite{Corporation2007}. 
+
+The performance test aims at verifying a specified system performance. This kind of test is executed by simulating hundreds of simultaneous users or more over a defined time interval \cite{DiLucca2006}. The purpose of this test is to demonstrate that the system reaches its performance objectives \cite{Sandler2004}. 
+
+
+In a load test, the system is evaluated at predefined load levels \cite{DiLucca2006}. The aim of this test is to determine whether the system can reach its performance targets for availability, concurrency, throughput, and response time. Load test is the closest to real application use \cite{Molyneaux2009}.
+
+The stress test verifies the system behavior against heavy workloads \cite{Sandler2004}, which are executed to evaluate a system beyond its limits, validate system response in activity peaks, and verify whether the system is able to recover from these conditions. It differs from other kinds of testing in that the system is executed on or beyond its breakpoints, forcing the application or the supporting infrastructure to fail \cite{DiLucca2006} \cite{Molyneaux2009}.
+
+Automated tools are needed to carry out serious load, stress, and performance testing. Sometimes, there is simply no practical way to provide reliable, repeatable performance tests without using some form of automation. The aim of any automated test tool is to simplify the testing process \cite{Molyneaux2009}.
+
+In the context of testing, a scenario is a sequence of steps in an application. It can represent a use case or a business function such as searching a product catalog, adding an item to a shopping cart, or placing an order \cite{Corporation2007}. 
+
+Load, performance, and stress results are measured by indicators. Some researchers advocate that the 90-percentile response time is a better measurement than the average/medium response time, as the former accounts for most of the peaks, while eliminating the outliers \cite{Jiang2010}.
+
+
+\section{WorkLoad Model}
+
+Load, performance, or stress testing projects should start with the development of a model for user workload that an application receives. This should take into consideration various performance aspects of the application and the infrastructure that a given workload will impact. A workload is a key component of such a model \cite{Molyneaux2009}.
+
+The term workload represents the size of the demand that will be imposed on the application under test in an execution. The metric unit used for defining a workload is dependent on the application domain, such as the length of the video in a transcoding application for multimedia files or the size of the input files in a file compression application \cite{Feitelson2013} \cite{Molyneaux2009} \cite{Goncalves2014}. 
+
+Workload is also defined by the distribution of load between the identified transactions at a given time. Workload helps researchers study the system behavior identified in several load models. A workload model can be designed to verify the predictability, repeatability, and scalability of a system \cite{Feitelson2013} \cite{Molyneaux2009}.
+
+
+Workload modeling is the attempt to create a simple and general model that can then be used to generate synthetic workloads. The goal is typically to be able to create workloads that can be used in performance evaluation studies. Sometimes, the synthetic workload is supposed to be similar to those that occur in practice in real systems \cite{Feitelson2013} \cite{Molyneaux2009}.
+
+There are two kinds of workload models: descriptive and generative. The difference between the two is that descriptive models just try to mimic the phenomena observed in the workload, whereas generative models try to emulate the process that generated the workload in the first place \cite{DiLucca2006}. 
+
+In descriptive models, one finds different levels of abstraction on the one hand and different levels of fidelity to the original data on the other hand. The most strictly faithful models try to mimic the data directly using the statistical distribution of the data. The most common strategy used in descriptive modeling is to create a statistical model of an observed workload (Fig. \ref{fig:descriptivemodel}). This model is applied to all the workload attributes, e.g., computation, memory usage, I/O behavior, communication, etc. \cite{DiLucca2006}. Fig. \ref{fig:descriptivemodel} shows a simplified workflow of a descriptive model. The workflow has six phases. In the first phase, the user uses the system in the production environment. In the second phase, the tester collects the user's data, such as logs, clicks, and preferences, from the system. The third phase consists in developing a model designed to emulate the user's behavior. The fourth phase is made up of the execution of the test, emulation of the user's behavior, and log gathering.
+
+
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.4\textwidth]{./images/workloadmodel1.png}
+\caption{Workload modeling based on statistical data \cite{DiLucca2006}}
+\label{fig:descriptivemodel}
+\end{figure}
+
+Generative models are indirect in the sense that they do not model the statistical distributions. Instead, they describe how users will behave when they generate the workload. An important benefit of the generative approach is that it facilitates manipulations of the workload. It is often desirable to be able to change the workload conditions as part of the evaluation. Descriptive models do not offer any option regarding how to do so. With the generative models, however, we can modify the workload-generation process to fit the desired conditions \cite{DiLucca2006}. The difference between the workflows of the descriptive and the generative models is that user behavior is not collected from logs, but simulated from a model that can receive feedback from the test execution (Fig. \ref{fig:generativemodel}).
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.4\textwidth]{./images/workloadmodel2.png}
+\caption{Workload modeling based on the generative model \cite{DiLucca2006}}
+\label{fig:generativemodel}
+\end{figure}
+
+The presented research work uses a generative model.
+
+\section{Hybrid  Metaheuristic}
+
+
+A large number of researchers have recognized the advantages and huge potential of building hybrid mathematical programming methods and metaheuristics. The main motivation for creating hybrid metaheuristics is to exploit the complementary character of different optimization strategies. In fact, choosing an adequate combination of algorithms can be the key to achieving top performance in solving many hard optimization problems \cite{Puchinger2005} \cite{Blum2012}.
+
+There are two main categories of metaheuristic combinations: collaborative combinations and integrative combinations. These are presented in Fig. \ref{fig:metaheuristc} \cite{Raidl2006}.
+
+\begin{figure}[h]
+\includegraphics[width=0.5\textwidth]{./images/metaheuristc2.png}
+\caption{Categories of metaheuristc combinations \cite{Puchinger2005} }
+\label{fig:metaheuristc}
+\end{figure}
+
+Collaborative combinations use an approach where the algorithms exchange information, but are not part of each other. In this approach, algorithms may be executed sequentially or in parallel. The presented research work uses a type of collaborative combination with sequential execution.
+
+
+\section{Improving Stress Search-Based Testing Using a Hybrid Metaheuristic Approach}
+
+
+A large number of researchers have recognized the advantages and huge potential of building hybrid mathematical programming methods and metaheuristics. The main motivation for creating hybrid metaheuristics is to exploit the complementary character of different optimization strategies. In fact, choosing an adequate combination of algorithms can be the key to achieving top performance in solving many hard optimization problems \cite{Puchinger2005}.
+
+
+The proposed solution makes it possible to create a model that evolves during the test. The proposed solution model uses genetic algorithms, Tabu search, and simulated annealing in two different approaches. The three algorithms were selected because they can use a common genotype representation. The first approach uses the three algorithms independently, and the second approach uses the three algorithms collaboratively (hybrid metaheuristic approach).
+
+In the first approach , the algorithms do not share their best individuals among themselves. Each algorithm evolves in a separate way (Fig. \ref{fig:firstaproach}). The second approach uses the algorithms in a collaborative mode (hybrid metaheuristic). In this approach, the three algorithms share their best individuals found (Fig. \ref{fig:secondapproach}).
+
+The next subsections present details about the used metaheuristic algorithms (genotype representation, initial population and fitness function).
+
+
+
+\begin{figure}[h]
+\includegraphics[width=0.5\textwidth]{./images/independ.png}
+\caption{Use of the algorithms independently}
+\label{fig:firstaproach}
+\end{figure}
+\begin{figure}
+\includegraphics[width=0.5\textwidth]{./images/collaborative.png}
+\caption{Use of the  algorithms collaboratively}
+\label{fig:secondapproach}
+\end{figure}
+
+\subsection{Genotype representation}
+
+The genotype representation is composed by a linear vector with 23 genes. The first gene represents the name of an individual. The second gene represents the algorithm (genetic algorithm, simulated annealing, or Tabu search) used by the individual. The third gene represents the type of test (load, stress, or performance). The next genes represent 10 scenarios and their numbers of users. Each scenario is an atomic operation: the scenario must log into the application, run the task goal, and undo any changes performed, returning the application to its original state.
+
+Fig. \ref{fig:genomarepresentation} presents the genome representation and an example using the crossover operation. In the example, genotype 1 has the Login scenario with 2 users, the Form scenario with 0 users, and the Search scenario with 3 users. Genotype 2 has the Delete scenario with 10 users, the Search scenario with 0 users, and the Include scenario with 5 users. After the crossover operation, we obtain a genotype with the Login scenario with 2 users, the Search scenario with 0 users, and the Include scenario with 5 users.
+
+\begin{figure}[h]
+\includegraphics[width=0.5\textwidth]{./images/genomerepresentation.png}
+\caption{Genotype representation and crossover example}
+\label{fig:genomarepresentation}
+\end{figure}
+
+Fig. \ref{fig:neighbourtaby} shows the strategy used by the IAdapter tool to obtain the genotype of the neighbors for the Tabu search and simulated annealing algorithms. The neighbors are obtained by the modification of a single chromosome (scenario or number of users) in the genotype.
+
+
+\begin{figure}[h]
+\includegraphics[width=0.5\textwidth]{./images/TabuNE.png}
+\caption{Tabu search and simulated annealing neighbor strategy}
+\label{fig:neighbourtaby}
+\end{figure}
+
+
+\subsection{Initial population}
+
+The strategy used by the plugin to instantiate the initial population is to generate 50\% of the individuals randomly, and 50\% of the initial population is distributed in three ranges of values:
+
+\begin{itemize}
+\item Thirty percent of the maximum allowed users in the test;
+\item Sixty percent of the maximum allowed users in the test; and
+\item Ninety percent of the maximum allowed users in the test.
+\end{itemize}
+
+\subsection{Objective (fitness) function}
+
+The proposed solution was designed to be used with independent testing teams in various situations where the teams have no direct access to the environment where the application under test was installed. Therefore, the IAdapter plugin uses a measurement approach to the definition of the fitness function. The fitness function applied to the IAdapter solution is governed by the following equation:
+
+\begin{equation}
+\begin{aligned}
+fit=90percentileweigth* 90percentiletime\\
++80percentileweigth*80percentiletime\\+
+70percentileweigth*70percentiletime+\\
+maxResponseWeigth*maxResponseTime+\\
+numberOfUsersWeigth*numberOfUsers-penalty
+\end{aligned}
+\end{equation}
+
+The proposed solution's fitness function uses a series of manually adjustable user-defined weights (90percentileweight, 80percentileweight,  70percentileweight, maxResponseWeight, and numberOfUsersWeight). These weights make it possible to customize the search plugin's functionality. A penalty is applied when an application under test takes a longer time to respond than the level of service.
+
+
+\section{IAdapter}
+
+IAdapter is a JMeter plugin designed to perform search-based stress tests.  The plugin is available on www.iadapter.org. JMeter is a desktop application designed to test and measure the performance and functional behavior of applications. The IAdapter plugin implements the solution proposed in Section 5.
+
+JMeter has components organized  in a hierarchical manner. The IAdapter plugin provides three main components: WorkLoadThreadGroup, WorkLoadSaver, and WorkLoadController.
  
-\hfill August 26, 2015
-
-\subsection{Subsection Heading Here}
-Subsection text here.
+JMeter has components organized  in a hierarchical manner. The IAdapter plugin provides three main components: WorkLoadThreadGroup, WorkLoadSaver, and WorkLoadController.
 
 
-\subsubsection{Subsubsection Heading Here}
-Subsubsection text here.
+Fig. \ref{fig:iadapterlifecycle} presents the IAdapter Life Cycle. The main difference between IAdapter and JMeter tool is that the IAdapter provide a automated test execution where the new test scenarios are choosen by the test tool.  In a test with JMeter, the tests scenarios are usually chosen by a test designer.
+
+\begin{figure}[h]
+\includegraphics[width=0.5\textwidth]{./images/lifecycle.png}
+\caption{IAdapter life cycle}
+\label{fig:iadapterlifecycle}
+\end{figure}
+
+ 
+WorkLoadThreadGroup is a component that creates an initial population and configures the algorithms used in IAdapter. Fig. \ref{fig:tela1iadapter} presents the main screen of the WorkLoadThreadGroup component. The component has a name \ding{202}, a set of configuration tabs \ding{203}, a list of individuals by generation \ding{204}, a button to generate an initial population \ding{205}, and a button to export the results \ding{206}.
+
+\begin{figure}[h]
+\includegraphics[width=0.5\textwidth]{./images/tela1iadapter.png}
+\caption{WorkLoadThreadGroup component}
+\label{fig:tela1iadapter}
+\end{figure}
+
+The WorkLoadSaver component is responsible for saving all data in the database. The operation of the component only requires its inclusion in the test script.
+
+WorkLoadController represents a scenario of the test. All actions necessary to test an application should be included in this component. All instances of the component need to login to the application under test and return the application to its original state.
 
 
-% An example of a floating figure using the graphicx package.
-% Note that \label must occur AFTER (or within) \caption.
-% For figures, \caption should occur after the \includegraphics.
-% Note that IEEEtran v1.7 and later has special internal code that
-% is designed to preserve the operation of \label within \caption
-% even when the captionsoff option is in effect. However, because
-% of issues like this, it may be the safest practice to put all your
-% \label just after \caption rather than within \caption{}.
-%
-% Reminder: the "draftcls" or "draftclsnofoot", not "draft", class
-% option should be used if it is desired that the figures are to be
-% displayed while in draft mode.
-%
-%\begin{figure}[!t]
+
+
+\section{Experiments}
+
+This section presents two experiments. The first one was performed on an emulated component, and the second one was performed using an installed Moodle application. The experiments used the following fitness function:
+
+\begin{equation}
+\begin{aligned}
+fit=0.9* 90percentiletime\\
++0.1*80percentiletime\\+
+0.1*70percentiletime+\\
+0.1*maxResponseTime+\\
+0.2*numberOfUsers-penalty
+\end{aligned}
+\end{equation}
+
+This fitness function intended to find individuals with the highest percentile of 90\%, followed by individuals with a higher percentile time of 80\% and 70\%, maximum response time, and number of users.
+
+The first experiment implemented 27 generations, and the second experiment  performed 6 generations, with 300 executions by generation (100 times for each algorithm),  generating 300 new individuals. The experiments used an initial population of 100 individuals. The genetic algorithm used the top 10 individuals from each generation in the crossover operation. The Tabu list was configured with the size of 10 individuals and expired every 2 generations.  The mutation operation was applied to 10\% of the population on each generation. 
+
+\subsection{First Experiment: Emulated Class Test}
+
+The first experiment aimed to perform performance, load, and stress testing on a simulated component. The purpose of using a simulated component was to be able to perform a greater number of generations in a shorter time available and eliminate variables such as the use of databases and application servers. The first experiment used a test class  named SimulateConcurrentAccess. This class has a static variable named \textit{x} and a set of methods that use the variable in a synchronized context ( Listing \ref{classsimulated}).
+
+
+\lstdefinestyle{outline}{
+		language=Java,
+         basicstyle=\scriptsize\ttfamily,
+         numberstyle=\tiny,
+         numbersep=5pt,
+         tabsize=2,
+         extendedchars=true,
+         breaklines=true,
+         keywordstyle=\color{black}\bf,
+         frame=b,  % <<<<<<<<<<<<<<<<<<<<<<<<<<
+         stringstyle=\color{green!40!black}\ttfamily,
+         showspaces=false,
+         showtabs=false,
+         numbers=left,
+         xleftmargin=17pt,
+         framexleftmargin=17pt,
+         framextopmargin=1pt, % <<<<<<<<<<<<<<<<<<<<<<
+         showstringspaces=false,
+         %backgroundcolor=\color[RGB]{200,200,200},
+         belowcaptionskip=0pt
+}
+
+\begin{lstlisting}[style=outline,caption={SimulateConcurrentAccess class},float,label=classsimulated]
+public class SimulateConcurrentAccess {
+  @Test
+  public void firstScenario() {		
+    synchronized (StaticClass.class) {
+			for (int i = 0; i <= 1000; i++) {
+				StaticClass.x += i;
+			}
+			StaticClass.x = 0;
+		}
+	}
+	
+	  @Test
+  public void secondScenario() {		
+    synchronized (StaticClass.class) {
+			for (int i = 0; i <= 2000; i++) {
+				StaticClass.x += i;
+			}
+			StaticClass.x = 0;
+		}
+	}
+\end{lstlisting}
+
+
+Fig.\ref{fig:exp1bestresults} presents the best results in 27 generations applied in the first experiment. The figure shows the results obtained with the algorithms with and without collaboration. The $x$ axis  represents the generation number, and the $y$ axis represents the best fitness value obtained until the current generation.
+A higher value in the figure means that the scenario has a greater response time by the application under test. The results of the experiment showed that the use of cooperation between the three algorithms resulted in finding the individuals with better fitness values.
+
+\begin{figure}[h]
+\centering
+\caption{Best results obtained in 27 generations}
+\includegraphics[width=0.5\textwidth]{./images/generationcomparative.png}
+\label{fig:exp1bestresults}
+\end{figure}
+
+Table \ref{tab:averagefirst} presents the results obtained by the hybrid metaheuristic (HM) approach, genetic algorithm (GA), simulated annealing (SA), and Tabu search (TS) from 27 generations in the first experiment. The values are the maximum value of the fitness value obtained in each algorithm. 
+
+\begin{table}[h]
+\centering
+\caption{Maximum value of the fitness function by algorithm}
+\label{tab:averagefirst}
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+GEN & HM & TS  & GA    & SA    \\ \hline
+1          & 11238 & 11238         & 11238 & 11238 \\ \hline
+2          & 11804 & 11596         & 11801 & 10677 \\ \hline
+3          & 11787 & 8932          & 8411  & 10869 \\ \hline
+4          & 11723 & 9753          & 9611  & 10760 \\ \hline
+5          & 8164  & 9780          & 10738 & 4794  \\ \hline
+6          & 11802 & 9781          & 11086 & 6120  \\ \hline
+7          & 9985  & 5782          & 11272 & 11798 \\ \hline
+8          & 11803 & 11749         & 10084 & 11309 \\ \hline
+9          & 11806 & 7284          & 11633 & 10766 \\ \hline
+10         & 11807 & 9386          & 11717 & 4557  \\ \hline
+11         & 11802 & 9653          & 11802 & 11151 \\ \hline
+12         & 11807 & 10594         & 11793 & 9434  \\ \hline
+13         & 11802 & 10848         & 10382 & 11805 \\ \hline
+14         & 11801 & 11551         & 7219  & 10237 \\ \hline
+15         & 11807 & 1701          & 7189  & 9338  \\ \hline
+16         & 11813 & 6203          & 11758 & 5321  \\ \hline
+17         & 11805 & 10720         & 10805 & 11748 \\ \hline
+18         & 9600  & 6371          & 11698 & 7818  \\ \hline
+19         & 11733 & 8160          & 11648 & 11509 \\ \hline
+20         & 9589  & 9428          & 11805 & 4813  \\ \hline
+21         & 11800 & 9463          & 11798 & 10801 \\ \hline
+22         & 11805 & 11799         & 11804 & 6029  \\ \hline
+23         & 11836 & 11655         & 11800 & 3579  \\ \hline
+24         & 11805 & 11512         & 11803 & 5761  \\ \hline
+25         & 11804 & 11573         & 11802 & 9680  \\ \hline
+26         & 11800 & 11575         & 11403 & 9388  \\ \hline
+27         & 11805 & 10691         & 11745 & 9465  \\ \hline
+\end{tabular}
+\end{table}
+
+The signed-rank Wilcoxon non-parametrical procedure was used for comparing the results with Z-value and W-value. The significant level adopted was 0.05. The Z-value obtained was -2.2736 and the p-value was 0.0232. The W-value obtained was 78. The critical value of W for N = 25 at p≤ 0.05 was 89.The result was significant at p≤ 0.05. The procedure showed that there was a significant improvement in the results with the collaborative approach.
+
+\subsection{Second Experiment: Moodle Application Test}
+
+The second experiment used a Moodle application installed in a machine with 500 GB of hard disk space and 8 GB of memory. The study used six application scenarios:
+
+\begin{itemize}
+\item PostDeleteMessage: This scenario posts and deletes messages in the Moodle application.
+\item MyHome: This scenario accesses the homepage of the user's application.
+\item Login: This scenario is responsible for user authentication by the application.
+\item Notifications: This scenario involves entering the notification page of each user.
+\item Start Page: This scenario shows the initial start page of the application.
+\item Badge: This scenario involves entering the badge page.
+\end{itemize}
+
+The maximum tolerated response time in the test was 30 seconds.  Any  individuals who obtained a time longer than the stipulated maximum time suffered penalties.  The whole process of stress and performance tests, which took 3 days and about 1800 executions, was carried out without the need for monitoring by a test designer. The tool automatically selected the next scenarios to be run up to the limit of six generations previously established. 
+
+Table \ref{tab:secondexperiment} presents the maximum fitness value obtained by the hybrid metaheuristic (HM) approach, genetic algorithm (GA), simulated annealing (SA), and Tabu search (TS) in each generation. 
+
+
+\begin{table}[h]
+\centering
+\caption{Results obtained from the second experiment}
+\label{tab:secondexperiment}
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+GEN & HM    & TS    & GA    & SA    \\
+\hline
+1          & 32242 & 32242 & 32242 & 32242 \\
+\hline
+2          & 34599 & 32443 & 26290 & 35635 \\
+\hline
+3          & 35800 & 34896 & 34584 & 34248 \\
+\hline
+4          & 35782 & 34912 & 32689 & 25753 \\
+\hline
+5          & 35611 & 31833 & 34631 & 8366  \\
+\hline
+6          & 35362 & 35041 & 33397 & 9706 \\
+\hline
+\end{tabular}
+\end{table}
+
+
+The small number of samples of the experiment is insufficient to give a statistical significance to the results of the Wilcoxon procedure. However, it is noted that, in four of six generations, the collaborative approach presented the best values. The experiment succeeded in finding 29 individuals whose maximum time expected by the application was obtained.  Table \ref{tab:secondexperiment1} shows an example of the six individuals with the highest fit values in the second experiment. The table shows the fitness value (Fit);  the name of the scenario (Scenario); the number of users (Users); and the percentiles of 90\%, 80\%, and 70\% (90per, 80per and 70per) in seconds.  
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[h]
+\centering
+\caption{Example of individuals obtained in the second experiment}
+\label{tab:secondexperiment1}
+\begin{tabular}{|p{0.2cm}|l|l|l|p{0.60cm}|p{0.60cm}|p{0.60cm}|}
+\hline
+Id&Fit&Scenario&Users&90per&80per&70per\\ \hline
+\multirow{2}{*}{1} & \multirow{2}{*}{35800} & MyHome        & 31              & \multirow{2}{*}{30} & \multirow{2}{*}{29} & \multirow{2}{*}{10} \\ \cline{3-4}
+                   &                        & Badges        & 4               &                     &                     &                     \\ \hline
+\multirow{3}{*}{2} & \multirow{3}{*}{35795} & MyHome        & 30              & \multirow{3}{*}{30} & \multirow{3}{*}{29} & \multirow{3}{*}{10} \\ \cline{3-4}
+                   &                        & Notifications & 2               &                     &                     &                     \\ \cline{3-4}
+                   &                        & Badges        & 2               &                     &                     &                     \\ \hline
+\multirow{2}{*}{3} & \multirow{2}{*}{35782} & MyHome        & 32              & \multirow{2}{*}{30} & \multirow{2}{*}{29} & \multirow{2}{*}{10} \\ \cline{3-4}
+                   &                        & Badges        & 3               &                     &                     &                     \\ \hline
+\multirow{3}{*}{4} & \multirow{3}{*}{35773} & MyHome        & 22              & \multirow{3}{*}{30} & \multirow{3}{*}{29} & \multirow{3}{*}{10} \\ \cline{3-4}
+                   &                        & Notifications & 6               &                     &                     &                     \\ \cline{3-4}
+                   &                        & Badges        & 9               &                     &                     &                     \\ \hline
+\multirow{2}{*}{5} & \multirow{2}{*}{35771} & MyHome        & 28              & \multirow{2}{*}{30} & \multirow{2}{*}{29} & \multirow{2}{*}{9}  \\ \cline{3-4}
+                   &                        & Badges        & 6               &                     &                     &                     \\ \hline
+\multirow{2}{*}{6} & \multirow{2}{*}{35683} & MyHome        & 27              & \multirow{2}{*}{30} & \multirow{2}{*}{29} & \multirow{2}{*}{8}  \\ \cline{3-4}
+                   &                        & Badges        & 10              &                     &                     &                     \\ \hline
+\end{tabular}
+\end{table}
+
+
+Table \ref{fig:gened} presents the percentage of genes in all test scenarios by generation with and without collaboration. Most of the genes converged to the MyHome feature, which had the highest application response time.
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[h]
+\centering
+\caption{Percentage of genes in each scenario by generation }
+\label{fig:gened}
+\begin{tabular}{c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor[HTML]{009901} 
+\multicolumn{1}{|c|}{\cellcolor[HTML]{FFFFFF}\textbf{Gen/}}   & \multicolumn{7}{c|}{\cellcolor[HTML]{009901}\textbf{Non collaboration approach}}                                                                                                                                                       \\ \cline{2-8} 
+\multicolumn{1}{|c|}{\textbf{Scenarios}}                      & \cellcolor[HTML]{F8FF00}Initial & \cellcolor[HTML]{F8FF00}1 & \cellcolor[HTML]{F8FF00}2 & \cellcolor[HTML]{F8FF00}3 & \cellcolor[HTML]{F8FF00}4 & \cellcolor[HTML]{F8FF00}5 & \cellcolor[HTML]{F8FF00}6                                \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{009901}Badges}          & 20                              & 18                        & 16                        & 24                        & 15                        & 16                        & 17                                                       \\ \hline
+\rowcolor[HTML]{F8FF00} 
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8FF00}\textbf{MyHome}} & \textbf{15}                     & \textbf{59}               & \textbf{55}               & \textbf{48}               & \textbf{53}               & \textbf{50}               & \multicolumn{1}{l|}{\cellcolor[HTML]{F8FF00}\textbf{52}} \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{009901}StartPage}       & 15                              & 10                        & 12                        & 11                        & 20                        & 18                        & \multicolumn{1}{l|}{19}                                  \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{009901}Notifications}   & 25                              & 5                         & 11                        & 10                        & 9                         & 10                        & \multicolumn{1}{l|}{9}                                   \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{009901}Post}            & 8                               & 3                         & 1                         & 3                         & 1                         & 2                         & \multicolumn{1}{l|}{1}                                   \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{009901}Login}           & 17                              & 5                         & 5                         & 4                         & 2                         & 4                         & \multicolumn{1}{l|}{2}                                   \\ \hline
+\multicolumn{1}{l|}{}                                         & \multicolumn{7}{c|}{\cellcolor[HTML]{009901}\textbf{Collaboration approach}}                                                                                                                                                           \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{009901}Badges}          & 20                              & 29                        & 16                        & 25                        & 9                         & 16                        & 9                                                        \\ \hline
+\rowcolor[HTML]{F8FF00} 
+\multicolumn{1}{|c|}{\cellcolor[HTML]{F8FF00}\textbf{MyHome}} & \textbf{15}                     & \textbf{29}               & \textbf{69}               & \textbf{49}               & \textbf{74}               & \textbf{66}               & \textbf{76}                                              \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{009901}StartPage}       & 15                              & 22                        & 10                        & 21                        & 10                        & 10                        & 8                                                        \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{009901}Nofications}     & 25                              & 10                        & 1                         & 1                         & 2                         & 1                         & 3                                                        \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{009901}Post}            & 8                               & 2                         & 1                         & 1                         & 1                         & 2                         & 1                                                        \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{009901}Login}           & 17                              & 8                         & 3                         & 3                         & 4                         & 5                         & 3                                                        \\ \hline
+\end{tabular}
+\end{table}
+
+
+%\begin{figure}[h]
 %\centering
-%\includegraphics[width=2.5in]{myfigure}
-% where an .eps filename suffix will be assumed under latex, 
-% and a .pdf suffix will be assumed for pdflatex; or what has been declared
-% via \DeclareGraphicsExtensions.
-%\caption{Simulation results for the network.}
-%\label{fig_sim}
+%\caption{Percentage of genes in all test scenarios by generation }
+%\includegraphics[width=0.5\textwidth]{./images/gened.png}
+%\label{fig:gened}
 %\end{figure}
 
-% Note that the IEEE typically puts floats only at the top, even when this
-% results in a large percentage of a column being occupied by floats.
+
+\section{Related Work}
 
 
-% An example of a double column floating figure using two subfigures.
-% (The subfig.sty package must be loaded for this to work.)
-% The subfigure \label commands are set within each subfloat command,
-% and the \label for the overall figure must come after \caption.
-% \hfil is used as a separator to get equal spacing.
-% Watch out that the combined width of all the subfigures on a 
-% line do not exceed the text width or a line break will occur.
-%
-%\begin{figure*}[!t]
-%\centering
-%\subfloat[Case I]{\includegraphics[width=2.5in]{box}%
-%\label{fig_first_case}}
-%\hfil
-%\subfloat[Case II]{\includegraphics[width=2.5in]{box}%
-%\label{fig_second_case}}
-%\caption{Simulation results for the network.}
-%\label{fig_sim}
-%\end{figure*}
-%
-% Note that often IEEE papers with subfigures do not employ subfigure
-% captions (using the optional argument to \subfloat[]), but instead will
-% reference/describe all of them (a), (b), etc., within the main caption.
-% Be aware that for subfig.sty to generate the (a), (b), etc., subfigure
-% labels, the optional argument to \subfloat must be present. If a
-% subcaption is not desired, just leave its contents blank,
-% e.g., \subfloat[].
+The search for the longest execution time is regarded as a discontinuous, nonlinear, optimization problem, with the input domain of the system under test as a search space \cite{Sullivan}. 
+
+A common objective of search-based testing in stress tests is to find test scenarios that produce execution times that exceed the timing constraints specified. If a temporal error is found, the test was successful \cite{Sullivan}. The application of evolutionary algorithms to  stress tests involves finding the best- and worst-case execution times (B/WCET) to determine whether timing constraints are fulfilled \cite{Afzal2009a}. 
 
 
-% An example of a floating table. Note that, for IEEE style tables, the
-% \caption command should come BEFORE the table and, given that table
-% captions serve much like titles, are usually capitalized except for words
-% such as a, an, and, as, at, but, by, for, in, nor, of, on, or, the, to
-% and up, which are usually not capitalized unless they are the first or
-% last word of the caption. Table text will default to \footnotesize as
-% the IEEE normally uses this smaller font for tables.
-% The \label must come after \caption as always.
-%
-%\begin{table}[!t]
-%% increase table row spacing, adjust to taste
-%\renewcommand{\arraystretch}{1.3}
-% if using array.sty, it might be a good idea to tweak the value of
-% \extrarowheight as needed to properly center the text within the cells
-%\caption{An Example of a Table}
-%\label{table_example}
-%\centering
-%% Some packages, such as MDW tools, offer better commands for making tables
-%% than the plain LaTeX2e tabular which is used here.
-%\begin{tabular}{|c||c|}
-%\hline
-%One & Two\\
-%\hline
-%Three & Four\\
-%\hline
-%\end{tabular}
-%\end{table}
+There are two measurement units normally associated with the fitness function in stress test: processor cycles and execution time. The processor cycle approach describes a fitness function in terms of processor cycles. The execution time approach involves executing the application under test and measuring the execution time \cite{Afzal2009a} \cite{tracey2000search}.
+
+Processor cycles measurement is deterministic in the sense that it is independent of system load and results in the same execution times for the same set of input parameters. However, such a measurement is dependent on the compiler and optimizer used, therefore, the processor cycles differ for each platform. Execution time measurement is a non deterministic approach, there is no guarantee to get the same results for the same test inputs \cite{Afzal2009a}.  However, stress testing where testers have no access to the production environment should be measured by the execution time measurement \cite{Molyneaux2009} \cite{Afzal2009a}.
+
+Table \ref{tab:comparison}  shows a comparison between the presented research work and the research studies on load, performance, and stress tests presented by Afzal et al. \cite{Afzal2009}. Afzal's work adds to some of the latest research in this area (\cite{Garousi2006} \cite{Garousi2010} \cite{DiAlesio2013} \cite{DiAlesio2014} \cite{Alesio2015}). 
 
 
-% Note that the IEEE does not put floats in the very first column
-% - or typically anywhere on the first page for that matter. Also,
-% in-text middle ("here") positioning is typically not used, but it
-% is allowed and encouraged for Computer Society conferences (but
-% not Computer Society journals). Most IEEE journals/conferences use
-% top floats exclusively. 
-% Note that, LaTeX2e, unlike IEEE journals/conferences, places
-% footnotes above bottom floats. This can be corrected via the
-% \fnbelowfloat command of the stfloats package.
+The columns represent the type of tool used (prototype or functional tool), and the rows represent the metaheuristic approach used by each research study (genetic algorithm, Tabu search, simulated annealing, or a customized algorithm). The table also divides the research studies by the type of fitness function used (execution time or processor cycles). Most research studies are limited to making prototypes of genetic algorithms. The presented research work is distinguished from others by having a functional tool using a hybrid approach. 
 
+
+\begin{table}[h]
+\centering
+\caption{Distribution of the research studies over the range of applied metaheuristics}
+\label{tab:comparison}
+\begin{tabular}{p{1.2cm}|p{1.8cm}|p{1.8cm}|p{1.8cm}|}
+\cline{2-4}
+                                                                & \multicolumn{2}{c|}{\textbf{Prototypes}}            & \textbf{Functional Tool} \\ \cline{2-4} 
+                                                                & \begin{minipage}{0.2\textwidth}\footnotesize Execution Time  \end{minipage}          & \begin{minipage}{0.2\textwidth}\footnotesize Processor Cycles \end{minipage}        & \begin{minipage}{0.2\textwidth}\footnotesize Execution Time \end{minipage}           \\ \cline{2-4} 
+%\setlength{\extrarowheight}{20pt}
+\begin{tabular}[c]{@{}l@{}}\begin{minipage}{0.1\textwidth}\scriptsize GA + SA  \\ + Tabu \\ Search \end{minipage}\end{tabular}  & \cellcolor[HTML]{FFCCC9} & \cellcolor[HTML]{FFCCC9} & \cellcolor[HTML]{F8FF00} \begin{minipage}{0.2\textwidth} \tiny \textbf{  \\ IADAPTER \\} \end{minipage}  \\[2ex] \cline{2-4} 
+\begin{minipage}{0.1\textwidth}\scriptsize GA \end{minipage}                                                              & \cellcolor[HTML]{CD9934} \begin{minipage}{0.12\textwidth}   \tiny \textnormal{ \\  Alander et al.,1998 \cite{Alander} \\ Wegener et al., 1996 and 1997 \cite{Wegener1997}\cite{J.WegenerK.GrimmM.GrochtmannH.Sthamer1996} \\  Sullivan et al., 1998 \cite{Sullivan} \\ Briand et al., 2005 \cite{Briand2005} \\ Canfora et al., 2005 \cite{Canfora}  \\ }\end{minipage} & \cellcolor[HTML]{CD9934} \begin{minipage}{0.12\textwidth} \tiny \textrm{  \\ Wegener and Grochtmann, 1998 \cite{Wegener1998} \\  Mueller et al., 1998 \cite{Mueller1998} \\ Puschner et al. \cite{Puschner1998} \\ Wegener et al., 2000 \cite{Stations} \\ Gro et al., 2000 \cite{Gross2000}  \\ }\end{minipage}& \cellcolor[HTML]{CD9934} \begin{minipage}{0.12\textwidth}   \tiny \textnormal{ \\  Di Penta, 2007 \cite{Penta2007} \\ Garoussi, 2006 \cite{Garousi2006} \\ Garousi, 2008 \cite{Garousi2008} \\ Garousi, 2010 \cite{Garousi2010} \\ } \end{minipage} \\[2ex] \cline{2-4} 
+\begin{minipage}{0.1\textwidth}\scriptsize Simulated \\ Annealing \\ (SA) \end{minipage}                                                             & \cellcolor[HTML]{FFCCC9} & \cellcolor[HTML]{FFCCC9} & \cellcolor[HTML]{CD9934} \begin{minipage}{0.12\textwidth}   \tiny  Tracey, 1998 \cite{Tracey1998} \end{minipage} \\[2ex] \cline{2-4}
+\begin{minipage}{0.1\textwidth}\scriptsize  Constraint \\ Programming \end{minipage}                                                             & \cellcolor[HTML]{FFCCC9} & \cellcolor[HTML]{FFCCC9} & \cellcolor[HTML]{CD9934} \begin{minipage}{0.12\textwidth}   \tiny  Alesio, 2014 \cite{DiAlesio2014} \\ Alesio, 2013 \cite{DiAlesio2013}  \end{minipage} \\[2ex] \cline{2-4} 
+\begin{minipage}{0.1\textwidth}\scriptsize  GA +\\ Constraint \\ Programming \end{minipage}                                                             & \cellcolor[HTML]{FFCCC9} & \cellcolor[HTML]{FFCCC9} & \cellcolor[HTML]{CD9934} \begin{minipage}{0.12\textwidth}   \tiny  Alesio, 2015 \cite{Alesio2015} \end{minipage} \\[2ex] \cline{2-4} 
+\setlength{\extrarowheight}{20pt}
+\begin{tabular}[c]{@{}l@{}}
+\begin{minipage}{0.1\textwidth}\scriptsize Customized \\ Algorithm \end{minipage}\end{tabular} & \cellcolor[HTML]{FFCCC9} & \cellcolor[HTML]{CD9934}  \begin{minipage}{0.12\textwidth}   \tiny  \textnormal{   \raggedleft Pohlheim, 1999 \cite{Pohlheim2005}  } \end{minipage} & \cellcolor[HTML]{FFCCC9} \\[4ex] \cline{2-4}
+\end{tabular}
+\end{table}
+
+
+Wegener et al. used genetic algorithms(GA) to search for input situations that produce very long or very short execution times. The fitness function used was the execution time of an individual measured in micro seconds \cite{Wegener1997}. 
+
+Alander et al. performed experiments in a simulator environment to measure response time extremes of protection relay software using genetic algorithms. The fitness function used was the response time of the tested software. The results showed that GA generated more input cases with longer response times \cite{Alander}. 
+
+Wegener and Grochtmann performed a  experimentation
+to compare GA with random testing. The fitness function used was duration of execution measured in processor cycles.  The results showed that, with a large number of input parameters, GA obtained more extreme execution times with less or equal testing effort than random testing \cite{J.WegenerK.GrimmM.GrochtmannH.Sthamer1996} \cite{Wegener1998} .
+
+Gro et. al. presented a prediction model  which can be used to predict evolutionary testability. The research confirmed that there is a relationship between the complexity of a test object and the ability of a search algorithm to produce input parameters according to B/WCET \cite{Gross2000}. 
+
+Tracey et al. used simulated annealing (SA) to test four
+simple programs. The results of the research presented that the use of SA was more effective with larger parameter space. The authors highlighted the need of a detailed comparison of various optimization techniques to explore WCET and BCET of the of the system under test \cite{Tracey1998}.
+
+Pohlheim and Wegener used an extension of genetic algorithms with multiple sub-populations, each using a different search strategy. The duration of execution measured in processor cycles was taken as the fitness
+function. The GA found longer execution times for all the given modules in comparison with systematic testing\cite{Pohlheim2005}.
+
+Briand et al. used GA to find the sequence of arrival times of events for aperiodic tasks, which will cause the greatest delays in the execution of the target task. A prototype tool named real-time test tool (RTTT) was developed to facilitate the execution of runs of genetic algorithm. Two case studies were conducted and results illustrated that RTTT was a useful tool to stress a system under test \cite{Briand2005}.
+
+Di Penta et al. used GA to create test data that violated QoS constraints causing SLA violations. The generated test data included combinations of inputs. The approach was applied to two case studies. The first case study was an audio processing workflow. The second case study, a service producing charts, applied the black-box approach with fitness calculated only on the basis of how close solutions violate QoS constraint. In case of audio workflow, the GA outperformed random search. For the second case study, use of black-box approach successfully violated the response time constraint, showing the violation of QoS constraints for a real service available on the Internet \cite{Penta2007}.
+
+Garousi presented a stress test methodology aimed at increasing chances of discovering faults related to distributed traffic in distributed systems. The technique uses as input a specified UML 2.0 model of a system, augmented with timing information.The results indicate that the technique is significantly more effective at detecting distributed traffic-related faults when compared to standard test cases based on an operational profile \cite{Garousi2006}.
+
+Alesio describe stress test case generation as a search problem over the space of task arrival times. The research search for worst case scenarios maximizing deadline misses where each scenario characterizes a test case. The paper combine two strategies, GA and Constraint Programming (CP). The results show that, in comparison with GA and CP in isolation, GA+CP achieves nearly the same effectiveness as CP and the same efficiency and solution diversity as GA, thus combining the advantages of the two strategies. Alesio concludes that a combined GA+CP approach to stress testing is more likely to scale to large and complex systems \cite{Alesio2015}.
+
+The presented research work and Alesio's approach \cite{Alesio2015} use a hybrid approach with a functional tool. Table \ref{tab:alesiogois} presents the main differences between Alesio's and IAdapter's approaches. Whereas the present research uses an approach based on usage scenarios performing tests on an application installed in an available environment, Alesio uses sequence diagrams  to select for arrival time of tasks in systems from  safety-critical domains. 
+
+
+\begin{table}[h]
+\centering
+\caption{Main differences between Alesio's \cite{Alesio2015} and IAdapter's approaches}
+\label{tab:alesiogois}
+\begin{tabular}{l|l|l|}
+\cline{2-3}
+                                                                                  & Alesio et al. \cite{Alesio2015}                                                                                                             & IAdapter                                                                                                                            \\ \hline
+\multicolumn{1}{|l|}{Metaheuristcs}                                               & \begin{tabular}[c]{@{}l@{}}GA+ \\ Constraint Programming\end{tabular}                                                      & \begin{tabular}[c]{@{}l@{}}GA+SA+\\ Tabu Search\end{tabular}                                                                           \\ \hline
+\multicolumn{1}{|l|}{Inputs}                                                      & \begin{tabular}[c]{@{}l@{}}Design Model (Time and \\ Concurrency\\  Information)\end{tabular}                              & \begin{tabular}[c]{@{}l@{}}Number of Users\\ Ramp-up\\ Test scenarios\end{tabular}                                                     \\ \hline
+\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Main\\ Objective\end{tabular}}    & \begin{tabular}[c]{@{}l@{}}Find task arrival times\\ of aperiodic tasks that\\  maximizing\\  deadline misses\end{tabular} & \begin{tabular}[c]{@{}l@{}}Find the number of\\  users, ramp-up and \\ test scenarios that\\ maximizing\\ deadline misses\end{tabular} \\ \hline
+\multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Main \\ Application\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Systems from \\ safety-critical \\ domains\end{tabular}                                         & \begin{tabular}[c]{@{}l@{}}Web and Mobile \\ applications\end{tabular}                                                                 \\ \hline
+\end{tabular}
+\end{table}
 
 
 
 \section{Conclusion}
-The conclusion goes here.
+
+This paper presented a hybrid metaheuristic approach for use in stress testing. Two experiments were performed to validate the solution. The first experiment was performed on an emulated component, and the second experiment was performed using an installed Moodle application.  The collaborative approach obtained better fit values in both experiments. 
+
+The main contributions of this research are as follows: The presentation of a hybrid metaheuristic approach for use in load, performance, and stress tests; the development of a JMeter plugin  for search-based tests; and  the automation of the stress test execution process.  
+
+In the first experiment, the signed-rank Wilcoxon non-parametrical procedure was used for comparing the results. The significant level adopted was 0.05. The procedure showed that there was a significant improvement in the results with the Hybrid Metaheuristic approach.
+
+In the second experiment, the whole process of stress and performance tests, which took 3 days and about 1800 executions, was carried out without the need for monitoring by a test designer. The tool automatically selected the next scenarios to be run up to the limit of six generations previously established. 
+
+There are a set of future improvements in the proposed approach. Also as a typical search strategy, it is difficult to ensure that the execution times generated in the experiments represents global optimum. More experimentation is also required to determine the
+most appropriate and robust parameters. Lastly, there is a need for an adequate termination criterion to stop the search process.
+
+Among the future works of the research, the use of new combinatorial optimization algorithms such as very large-scale neighborhood search is one that we can highlight
 
 
+%\section*{Reference}
+
+%% The Appendices part is started with the command \appendix;
+%% appendix sections are then done as normal sections
+%% \appendix
+
+%% \section{}
+%% \label{}
+
+%% References
+%%
+%% Following citation commands can be used in the body text:
+%% Usage of \cite is as follows:
+%%   \cite{key}          ==>>  [#]
+%%   \cite[chap. 2]{key} ==>>  [#, chap. 2]
+%%   \citet{key}         ==>>  Author [#]
+
+%% References with bibTeX database:
 
 
-% conference papers do not normally have an appendix
+\bibliographystyle{IEEEtran}
+\bibliography{sample}
 
-
-% use section* for acknowledgment
-\section*{Acknowledgment}
-
-
-The authors would like to thank...
-
-
-
-
-
-% trigger a \newpage just before the given reference
-% number - used to balance the columns on the last page
-% adjust value as needed - may need to be readjusted if
-% the document is modified later
-%\IEEEtriggeratref{8}
-% The "triggered" command can be changed if desired:
-%\IEEEtriggercmd{\enlargethispage{-5in}}
-
-% references section
-
-% can use a bibliography generated by BibTeX as a .bbl file
-% BibTeX documentation can be easily obtained at:
-% http://mirror.ctan.org/biblio/bibtex/contrib/doc/
-% The IEEEtran BibTeX style support page is at:
-% http://www.michaelshell.org/tex/ieeetran/bibtex/
-%\bibliographystyle{IEEEtran}
-% argument is your BibTeX string definitions and bibliography database(s)
-%\bibliography{IEEEabrv,../bib/paper}
-%
-% <OR> manually copy in the resultant .bbl file
-% set second argument of \begin to the number of references
-% (used to reserve space for the reference number labels box)
-\begin{thebibliography}{1}
-
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
-
-\end{thebibliography}
 
 
 
