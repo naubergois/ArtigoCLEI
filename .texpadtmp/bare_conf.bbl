@@ -52,12 +52,9 @@ C.~Barna, M.~Litoiu, and H.~Ghanbari, ``{Autonomic load-testing framework},''
   \emph{International conference on Autonomi}, pp. 91--100, 2011.
 
 \bibitem{Afzal2009a}
-\BIBentryALTinterwordspacing
 W.~Afzal, R.~Torkar, and R.~Feldt, ``{A systematic review of search-based
   testing for non-functional system properties},'' \emph{Information and
-  Software Technology}, vol.~51, no.~6, pp. 957--976, 2009. [Online].
-  Available: \url{http://dx.doi.org/10.1016/j.infsof.2008.12.005}
-\BIBentrySTDinterwordspacing
+  Software Technology}, vol.~51, no.~6, pp. 957--976, 2009.
 
 \bibitem{Sullivan}
 M.~O. Sullivan, S.~V\"{o}ssner, J.~Wegener, and D.-b. Ag, ``{Testing Temporal
@@ -65,12 +62,8 @@ M.~O. Sullivan, S.~V\"{o}ssner, J.~Wegener, and D.-b. Ag, ``{Testing Temporal
   and Cluster Analysis ---},'' pp. 1--20.
 
 \bibitem{Sandler2004}
-\BIBentryALTinterwordspacing
 C.~Sandler, T.~Badgett, and T.~Thomas, ``\BIBforeignlanguage{en}{{The Art of
-  Software Testing}},'' p. 200, Sep. 2004. [Online]. Available:
-  \url{http://books.google.com.br/books?id=GjyEFPkMCwcC
-  http://scholar.google.com/scholar?hl=en\&btnG=Search\&q=intitle:The+Art+of+Software+Testing\#0}
-\BIBentrySTDinterwordspacing
+  Software Testing}},'' p. 200, Sep. 2004.
 
 \bibitem{Corporation2007}
 \BIBentryALTinterwordspacing
@@ -86,6 +79,13 @@ G.~a. {Di Lucca} and A.~R. Fasolino, ``{Testing Web-based applications: The
   state of the art and future trends},'' \emph{Information and Software
   Technology}, vol.~48, pp. 1172--1186, 2006.
 
+\bibitem{Erinle2013}
+B.~Erinle, \emph{{Performance Testing With JMeter 2.9}}, 2013.
+
+\bibitem{Halili2008}
+E.~H. Halili, \emph{{Apache JMeter: A practical beginner's guide to automated
+  testing and performance measurement for your websites.}}, 2008.
+
 \bibitem{Feitelson2013}
 D.~G. Feitelson, \emph{{Workload Modeling for Computer Systems Performance
   Evaluation}}.\hskip 1em plus 0.5em minus 0.4em\relax Cambridge University
@@ -97,24 +97,49 @@ M.~C. Gon\c{c}alves, ``{Um Processo de Infer\^{e}ncia de Desempenho para Apoiar
   Infer\^{e}ncia de Desempenho para Apoiar o Planejamento da Capacidade de
   Aplica\c{c}\~{o}es na Nuvem},'' 2014.
 
+\bibitem{Harman2015}
+\BIBentryALTinterwordspacing
+M.~Harman, Y.~Jia, and Y.~Zhang, ``{Achievements , open problems and challenges
+  for search based software testing},'' \emph{8th IEEE International Conference
+  on Software Testing, Verification and Validation (ICST)}, no. Icst, 2015.
+  [Online]. Available: \url{http://www0.cs.ucl.ac.uk/staff/mharman/icst15.pdf}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Aleti2016}
+A.~Aleti, I.~Moser, and L.~Grunske, ``{Analysing the fitness landscape of
+  search-based software testing problems},'' \emph{Automated Software
+  Engineering}, pp. 1--19, 2016.
+
+\bibitem{raidl2010metaheuristic}
+G.~R. Raidl, J.~Puchinger, and C.~Blum, ``Metaheuristic hybrids,'' in
+  \emph{Handbook of metaheuristics}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Springer, 2010, pp. 469--496.
+
+\bibitem{Blum2003}
+C.~Blum and A.~Roli, ``{Metaheuristics in combinatorial optimization: overview
+  and conceptual comparison},'' \emph{ACM Computing Surveys}, vol.~35, no.~3,
+  pp. 189--213, 2003.
+
+\bibitem{Jaziri2008}
+W.~Jaziri, \emph{{Local Search Techniques: Focus on Tabu Search}}, 2008.
+
+\bibitem{Glover1986}
+F.~Glover and R.~Mart{\'{i}}, ``{Tabu Search},'' \emph{Tabu Search}, pp. 1--16,
+  1986.
+
+\bibitem{talbi2009metaheuristics}
+E.-G. Talbi, \emph{Metaheuristics: from design to implementation}.\hskip 1em
+  plus 0.5em minus 0.4em\relax John Wiley \& Sons, 2009, vol.~74.
+
+\bibitem{Raidl2006}
+R.~Raidl, ``{A Unified View on Hybrid Metaheuristics},'' \emph{Hybrid
+  Metaheuristics (LNCS 4030)}, pp. 1--12, 2006.
+
 \bibitem{Puchinger2005}
 J.~Puchinger and R.~Raidl, ``{Combining Metaheuristics and Exact Algorithms in
   Combinatorial Optimization : A Survey and Classification},'' \emph{Artificial
   Intelligence and Knowledge Engineering Applications a Bioinspired Approach},
   vol. 3562, pp. 41--53, 2005.
-
-\bibitem{Blum2012}
-\BIBentryALTinterwordspacing
-C.~Blum, ``{Hybrid metaheuristics in combinatorial optimization: A tutorial},''
-  \emph{Lecture Notes in Computer Science (including subseries Lecture Notes in
-  Artificial Intelligence and Lecture Notes in Bioinformatics)}, vol. 7505
-  LNCS, no.~6, pp. 1--10, 2012. [Online]. Available:
-  \url{http://dx.doi.org/10.1016/j.asoc.2011.02.032}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Raidl2006}
-R.~Raidl, ``{A Unified View on Hybrid Metaheuristics},'' \emph{Hybrid
-  Metaheuristics (LNCS 4030)}, pp. 1--12, 2006.
 
 \bibitem{tracey2000search}
 N.~J. Tracey, ``A search-based automated test-data generation framework for
@@ -135,12 +160,9 @@ S.~{Di Alesio}, S.~Nejati, L.~Briand, and A.~Gotlieb, ``{Stress testing of task
   158--167, 2013.
 
 \bibitem{DiAlesio2014}
-\BIBentryALTinterwordspacing
 ------, ``{Worst-Case Scheduling of Software Tasks -- A Constraint Optimization
   Model to Support Performance Testing},'' \emph{Principles and Practice of
-  Constraint Programming}, pp. 813--830, 2014. [Online]. Available:
-  \url{http://link.springer.com/10.1007/978-3-319-10428-7{\_}58}
-\BIBentrySTDinterwordspacing
+  Constraint Programming}, pp. 813--830.
 
 \bibitem{Alesio2015}
 S.~D.~I. Alesio, L.~C. Briand, S.~Nejati, and A.~Gotlieb, ``{Combining Genetic
@@ -148,14 +170,8 @@ S.~D.~I. Alesio, L.~C. Briand, S.~Nejati, and A.~Gotlieb, ``{Combining Genetic
   Engineering and Methodology}, vol.~25, no.~1, 2015.
 
 \bibitem{Alander}
-\BIBentryALTinterwordspacing
 J.~T.~J. Alander, T.~Mantere, and P.~Turunen, ``{Genetic Algorithm Based
   Software Testing},'' in \emph{Neural Nets and Genetic Algorithms}, 1998.
-  [Online]. Available:
-  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.52.9891\&rep=rep1\&type=pdf
-  http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.9891
-  http://link.springer.com/chapter/10.1007/978-3-7091-6492-1\_71}
-\BIBentrySTDinterwordspacing
 
 \bibitem{Wegener1997}
 \BIBentryALTinterwordspacing
@@ -166,12 +182,9 @@ J.~Wegener, H.~Sthamer, B.~F. Jones, and D.~E. Eyres, ``{Testing real-time
 \BIBentrySTDinterwordspacing
 
 \bibitem{J.WegenerK.GrimmM.GrochtmannH.Sthamer1996}
-\BIBentryALTinterwordspacing
 B.~J. {J. Wegener, K. Grimm, M. Grochtmann, H. Sthamer}, ``{Systematic testing
   of real-time systems},'' \emph{EuroSTAR'96: Proceedings of the Fourth
   International Conference on Software Testing Analysis and Review}, 1996.
-  [Online]. Available: \url{http://update-it.com/documents/eurostar1996.pdf}
-\BIBentrySTDinterwordspacing
 
 \bibitem{Briand2005}
 L.~C. Briand, Y.~Labiche, and M.~Shousha, ``{Stress testing real-time systems
@@ -183,12 +196,9 @@ G.~Canfora, M.~D. Penta, R.~Esposito, and M.~L. Villani, ``{2005., Canfora, G.,
   An approach for QoS-aware service composition based on genetic algorithms}.''
 
 \bibitem{Wegener1998}
-\BIBentryALTinterwordspacing
 J.~Wegener and M.~Grochtmann, ``{Verifying timing constraints of real-time
   systems by means of evolutionary testing},'' \emph{Real-Time Systems},
-  vol.~15, no.~3, pp. 275--298, 1998. [Online]. Available: \url{<Go to
-  ISI>://WOS:000077759900004}
-\BIBentrySTDinterwordspacing
+  vol.~15, no.~3, pp. 275--298, 1998.
 
 \bibitem{Mueller1998}
 F.~Mueller and J.~Wegener, ``{A comparison of static analysis and evolutionary
@@ -207,13 +217,9 @@ H.~{Wegener, Joachim and Pitschinetz, Roman and Sthamer}, ``{Automated Testing
   Automated Program Analysis, Testing and Verification (WAPATV'00)}, 2000.
 
 \bibitem{Gross2000}
-\BIBentryALTinterwordspacing
 H.~Gross, B.~F. Jones, and D.~E. Eyres, ``{Structural performance measure of
   evolutionary testing applied to worst-case timing of real-time systems},''
   \emph{Software, IEE Proceedings-}, vol. 147, no.~2, pp. 25--30, 2000.
-  [Online]. Available:
-  \url{http://ieeexplore.ieee.org/xpls/abs{\_}all.jsp?arnumber=1504554}
-\BIBentrySTDinterwordspacing
 
 \bibitem{Penta2007}
 M.~D. Penta, G.~Canfora, and G.~Esposito, ``{Search-based testing of service
@@ -221,27 +227,23 @@ M.~D. Penta, G.~Canfora, and G.~Esposito, ``{Search-based testing of service
   Genetic and evolutionary computation}, 2007, pp. 1090--1097.
 
 \bibitem{Garousi2008}
-\BIBentryALTinterwordspacing
 V.~Garousi, ``{Empirical analysis of a genetic algorithm-based stress test
   technique},'' \emph{Proceedings of the 10th annual conference on Genetic and
-  evolutionary computation - GECCO '08}, p. 1743, 2008. [Online]. Available:
-  \url{http://portal.acm.org/citation.cfm?doid=1389095.1389433}
-\BIBentrySTDinterwordspacing
+  evolutionary computation - GECCO '08}, p. 1743, 2008.
 
 \bibitem{Tracey1998}
-\BIBentryALTinterwordspacing
 N.~J. Tracey, J.~a. Clark, and K.~C. Mander, ``{Automated Programme Flaw
-  Finding using Simulated Annealing},'' 1998. [Online]. Available:
-  \url{http://kar.kent.ac.uk/21679/}
-\BIBentrySTDinterwordspacing
+  Finding using Simulated Annealing},'' 1998.
 
 \bibitem{Pohlheim2005}
-\BIBentryALTinterwordspacing
 H.~Pohlheim, M.~Conrad, and A.~Griep, ``{Evolutionary Safety Testing of
   Embedded Control Software by Automatically Generating Compact Test Data
-  Sequences},'' \emph{Analysis}, no. 724, pp. 804----814, 2005. [Online].
-  Available:
-  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.62.6557{\&}amp;rep=rep1{\&}amp;type=pdf}
-\BIBentrySTDinterwordspacing
+  Sequences},'' \emph{Analysis}, no. 724, pp. 804----814, 2005.
+
+\bibitem{Blum2012}
+C.~Blum, ``{Hybrid metaheuristics in combinatorial optimization: A tutorial},''
+  \emph{Lecture Notes in Computer Science (including subseries Lecture Notes in
+  Artificial Intelligence and Lecture Notes in Bioinformatics)}, vol. 7505
+  LNCS, no.~6, pp. 1--10, 2012.
 
 \end{thebibliography}

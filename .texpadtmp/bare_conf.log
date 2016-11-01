@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  30 MAY 2016 14:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.13)  30 OCT 2016 09:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -355,6 +355,88 @@ Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
 \colbreak@box=\box57
 \mc@col@check@num=\count123
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count124
 \lst@gtempboxa=\box58
@@ -601,7 +683,44 @@ Package: xparse 2014/11/25 v5471 L3 Experimental document command parser
 . ignored.
 .................................................
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count166
+\float@exts=\toks25
+\float@box=\box75
+\@float@everytoks=\toks26
+\@floatcapt=\box76
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks27
+\c@algorithm=\count167
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count168
+\c@ALG@rem=\count169
+\c@ALG@nested=\count170
+\ALG@tlm=\skip62
+\ALG@thistlm=\skip63
+\c@ALG@Lnr=\count171
+\c@ALG@blocknr=\count172
+\c@ALG@storecount=\count173
+\c@ALG@tmpcounter=\count174
+\ALG@tmplength=\skip64
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
@@ -616,12 +735,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen211
 \cmidrulekern=\dimen212
 \defaultaddspace=\dimen213
-\@cmidla=\count166
-\@cmidlb=\count167
+\@cmidla=\count175
+\@cmidlb=\count176
 \@aboverulesep=\dimen214
 \@belowrulesep=\dimen215
-\@thisruleclass=\count168
-\@lastruleclass=\count169
+\@thisruleclass=\count177
+\@lastruleclass=\count178
 \@thisrulewidth=\dimen216
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/txfonts.sty
@@ -702,49 +821,57 @@ LaTeX Info: Redefining \not on input line 1043.
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-\everycr=\toks25
-\minrowclearance=\skip62
+\everycr=\toks28
+\minrowclearance=\skip65
 )
-(/Users/naubergois/ArtigoCLEI/.texpadtmp/bare_conf.aux)
+(/Users/naubergois/ArtigoCLEIJournal/.texpadtmp/bare_conf.aux)
 \openout1 = `bare_conf.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 330.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 330
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 333.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 333
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 330.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 330.
-LaTeX Font Info:    ... okay on input line 330.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 330.
-LaTeX Font Info:    ... okay on input line 330.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 330.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 330
+LaTeX Font Info:    ... okay on input line 333.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 333.
+LaTeX Font Info:    ... okay on input line 333.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 333.
+LaTeX Font Info:    ... okay on input line 333.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 333.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 333
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 330.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 330.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 330
+LaTeX Font Info:    ... okay on input line 333.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 333.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 333
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 330.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 330.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 330.
+LaTeX Font Info:    ... okay on input line 333.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 333.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 333.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 330.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 330.
+LaTeX Font Info:    ... okay on input line 333.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 333.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 333.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 333.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 333.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ot1txr.fd
@@ -753,17 +880,17 @@ File: ot1txr.fd 2000/12/15 v3.1
 -- Lines per column: 56 (exact).
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count170
+\scratchcounter=\count179
 \scratchdimen=\dimen217
-\scratchbox=\box75
-\nofMPsegments=\count171
-\nofMParguments=\count172
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count173
+\scratchbox=\box77
+\nofMPsegments=\count180
+\nofMParguments=\count181
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count182
 \MPscratchDim=\dimen218
-\MPnumerator=\count174
-\makeMPintoPDFobject=\count175
-\everyMPtoPDFconversion=\toks27
+\MPnumerator=\count183
+\makeMPintoPDFobject=\count184
+\everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -812,14 +939,15 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count176
+\c@lstlisting=\count185
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-./bare_conf.tex:361: Undefined control sequence.
+./bare_conf.tex:364: Undefined control sequence.
 <argument>  \alignauthor 
                          Francisco Nauber Bernardo Gois\\ Servi\c {c}o Feder...
-l.361 }
+l.364 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -827,10 +955,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:361: Undefined control sequence.
+./bare_conf.tex:364: Undefined control sequence.
 <argument> ...s@serpro.gov.br\\ \and \alignauthor 
                                                   Pedro Porf\'irio Muniz de ...
-l.361 }
+l.364 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -838,10 +966,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:361: Undefined control sequence.
+./bare_conf.tex:364: Undefined control sequence.
 <argument> ...firio@unifor.br\\ \and \alignauthor 
-                                                  Andr\'e Lu\'is Vasconcelos...
-l.361 }
+                                                  Andr\'e L. V. Coelho\\ Uni...
+l.364 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -849,10 +977,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:361: Undefined control sequence.
+./bare_conf.tex:364: Undefined control sequence.
 <argument> ...oelho@unifor.br\\ \and \alignauthor 
                                                   Thiago Monteiro Barbosa\\ ...
-l.361 }
+l.364 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -860,10 +988,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:361: Undefined control sequence.
+./bare_conf.tex:364: Undefined control sequence.
 <argument>  \alignauthor 
                          Francisco Nauber Bernardo Gois\\ Servi\c {c}o Feder...
-l.361 }
+l.364 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -871,10 +999,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:361: Undefined control sequence.
+./bare_conf.tex:364: Undefined control sequence.
 <argument> ...s@serpro.gov.br\\ \and \alignauthor 
                                                   Pedro Porf\'irio Muniz de ...
-l.361 }
+l.364 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -882,10 +1010,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:361: Undefined control sequence.
+./bare_conf.tex:364: Undefined control sequence.
 <argument> ...firio@unifor.br\\ \and \alignauthor 
-                                                  Andr\'e Lu\'is Vasconcelos...
-l.361 }
+                                                  Andr\'e L. V. Coelho\\ Uni...
+l.364 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -893,10 +1021,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./bare_conf.tex:361: Undefined control sequence.
+./bare_conf.tex:364: Undefined control sequence.
 <argument> ...oelho@unifor.br\\ \and \alignauthor 
                                                   Thiago Monteiro Barbosa\\ ...
-l.361 }
+l.364 }
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -904,389 +1032,444 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+** ATTENTION: Overriding command lockouts (line 368).
 <./images/diagram.png, id=1, 617.23512pt x 535.95508pt>
 File: ./images/diagram.png Graphic file (type png)
 
 <use ./images/diagram.png>
-Package pdftex.def Info: ./images/diagram.png used on input line 399.
+Package pdftex.def Info: ./images/diagram.png used on input line 405.
 (pdftex.def)             Requested size: 206.39685pt x 179.22098pt.
-LaTeX Font Info:    Try loading font information for U+txmia on input line 410.
+LaTeX Font Info:    Try loading font information for TS1+txr on input line 411.
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxmia.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ts1txr.fd
+File: ts1txr.fd 2000/12/15 v3.1
+) [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./images/diagram.png>]
+LaTeX Font Info:    Try loading font information for U+txmia on input line 417.
+
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 410.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 417.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 410.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 417.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 410.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 417.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-) [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
-<./images/solution.png, id=14, 473.73839pt x 1148.25839pt>
+)
+<./images/solution.png, id=15, 473.73839pt x 1148.25839pt>
 File: ./images/solution.png Graphic file (type png)
 
 <use ./images/solution.png>
-Package pdftex.def Info: ./images/solution.png used on input line 420.
+Package pdftex.def Info: ./images/solution.png used on input line 426.
 (pdftex.def)             Requested size: 129.0pt x 312.66206pt.
 
-Underfull \hbox (badness 7379) in paragraph at lines 425--427
+Underfull \hbox (badness 7379) in paragraph at lines 432--433
 \OT1/txr/m/n/10 ap-proach that com-bines ge-netic al-go-rithms, sim-u-lated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--427
-\OT1/txr/m/n/10 an-neal-ing, and Tabu search al-go-rithms in stress
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
+\OT1/txr/m/n/10 an-neal-ing, and tabu search al-go-rithms in stress
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 425--427
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
 \OT1/txr/m/n/10 tests. A tool named IAdapter (www.iadapter.org,
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 425--427
+Underfull \hbox (badness 3735) in paragraph at lines 432--433
 \OT1/txr/m/n/10 github.com/naubergois/newiadapter), a JMe-ter plu-gin for
  []
 
 
-Underfull \hbox (badness 5231) in paragraph at lines 425--427
+Underfull \hbox (badness 5231) in paragraph at lines 432--433
 \OT1/txr/m/n/10 ex-per-i-ments were con-ducted to val-i-date the pro-posed
  []
 
+<./images/testprocess.png, id=16, 544.0325pt x 1027.84pt>
+File: ./images/testprocess.png Graphic file (type png)
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<use ./images/testprocess.png>
+Package pdftex.def Info: ./images/testprocess.png used on input line 460.
+(pdftex.def)             Requested size: 258.0pt x 487.46059pt.
 
- [2 <./images/diagram.png> <./images/solution.png>]
-<./images/workloadmodel1.png, id=20, 477.785pt x 432.60835pt>
-File: ./images/workloadmodel1.png Graphic file (type png)
-
-<use ./images/workloadmodel1.png>
-Package pdftex.def Info: ./images/workloadmodel1.png used on input line 471.
-(pdftex.def)             Requested size: 206.39685pt x 186.8761pt.
-
-<./images/workloadmodel2.png, id=21, 475.76169pt x 432.60835pt>
-File: ./images/workloadmodel2.png Graphic file (type png)
-
-<use ./images/workloadmodel2.png>
-Package pdftex.def Info: ./images/workloadmodel2.png used on input line 480.
-(pdftex.def)             Requested size: 206.39685pt x 187.67482pt.
- [3 <./images/workloadmodel1.png> <./images/workloadmodel2.png>]
-<./images/metaheuristc2.png, id=27, 509.87338pt x 274.94847pt>
-File: ./images/metaheuristc2.png Graphic file (type png)
-
-<use ./images/metaheuristc2.png>
-Package pdftex.def Info: ./images/metaheuristc2.png used on input line 495.
-(pdftex.def)             Requested size: 258.0pt x 139.13106pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 495--496
-[][] 
- []
-
-<./images/independ.png, id=28, 354.23682pt x 268.49918pt>
-File: ./images/independ.png Graphic file (type png)
-
-<use ./images/independ.png>
-Package pdftex.def Info: ./images/independ.png used on input line 518.
-(pdftex.def)             Requested size: 258.0pt x 195.56438pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 518--519
-[][] 
- []
-
-<./images/collaborative.png, id=29, 654.445pt x 302.12875pt>
-File: ./images/collaborative.png Graphic file (type png)
-
-<use ./images/collaborative.png>
-Package pdftex.def Info: ./images/collaborative.png used on input line 523.
-(pdftex.def)             Requested size: 258.0pt x 119.10674pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 523--524
-[][] 
- []
-
-[4 <./images/metaheuristc2.png> <./images/independ.png> <./images/collaborative
-.png>] <./images/genomerepresentation.png, id=37, 582.14339pt x 540.98174pt>
-File: ./images/genomerepresentation.png Graphic file (type png)
-
-<use ./images/genomerepresentation.png>
-Package pdftex.def Info: ./images/genomerepresentation.png used on input line 5
-35.
-(pdftex.def)             Requested size: 258.0pt x 239.75792pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 535--536
-[][] 
- []
-
-<./images/TabuNE.png, id=38, 582.14339pt x 438.5518pt>
-File: ./images/TabuNE.png Graphic file (type png)
-
-<use ./images/TabuNE.png>
-Package pdftex.def Info: ./images/TabuNE.png used on input line 544.
-(pdftex.def)             Requested size: 258.0pt x 194.36195pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 544--545
-[][] 
- []
-
-<./images/lifecycle.png, id=39, 470.75874pt x 422.57875pt>
-File: ./images/lifecycle.png Graphic file (type png)
-
-<use ./images/lifecycle.png>
-Package pdftex.def Info: ./images/lifecycle.png used on input line 589.
-(pdftex.def)             Requested size: 258.0pt x 231.59367pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 589--590
-[][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./images/tela1iadapter.png, id=40, 997.7275pt x 674.52pt>
-File: ./images/tela1iadapter.png Graphic file (type png)
-
-<use ./images/tela1iadapter.png>
-Package pdftex.def Info: ./images/tela1iadapter.png used on input line 598.
-(pdftex.def)             Requested size: 258.0pt x 174.41388pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 598--599
-[][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./images/genomerepresentation.png> <./images/TabuNE.png>]
-(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2014/09/06 1.5e listings language file
-)
-LaTeX Font Info:    Try loading font information for OT1+txtt on input line 655
-.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ot1txtt.fd
-File: ot1txtt.fd 2000/12/15 v3.1
-) [6 <./images/lifecycle.png> <./images/tela1iadapter.png>]
-<./images/generationcomparative.png, id=54, 953.54669pt x 505.79515pt>
-File: ./images/generationcomparative.png Graphic file (type png)
-
-<use ./images/generationcomparative.png>
-Package pdftex.def Info: ./images/generationcomparative.png used on input line 
-685.
-(pdftex.def)             Requested size: 258.0pt x 136.85207pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 685--687
+Overfull \hbox (6.0pt too wide) in paragraph at lines 460--461
  [][] 
  []
 
-Missing character: There is no â in font txr!
-Missing character: There is no ‰ in font txr!
-Missing character: There is no ¤ in font txr!
-Missing character: There is no â in font txr!
-Missing character: There is no ‰ in font txr!
-Missing character: There is no ¤ in font txr!
+[2 <./images/solution.png>] [3 <./images/testprocess.png>]
+<./images/workloadmodel1300dpi.png, id=27, 477.72177pt x 432.57674pt>
+File: ./images/workloadmodel1300dpi.png Graphic file (type png)
 
-Overfull \hbox (0.97354pt too wide) in paragraph at lines 782--782
-[]|\OT1/txr/m/n/8 Id| 
- []
+<use ./images/workloadmodel1300dpi.png>
+Package pdftex.def Info: ./images/workloadmodel1300dpi.png used on input line 5
+42.
+(pdftex.def)             Requested size: 206.39685pt x 186.88884pt.
 
+<./images/workloadmodel2300dpi.png, id=28, 475.73007pt x 432.57674pt>
+File: ./images/workloadmodel2300dpi.png Graphic file (type png)
 
-Overfull \hbox (1.14418pt too wide) in paragraph at lines 782--782
-[]|\OT1/txr/m/n/8 90per| 
- []
+<use ./images/workloadmodel2300dpi.png>
+Package pdftex.def Info: ./images/workloadmodel2300dpi.png used on input line 5
+51.
+(pdftex.def)             Requested size: 206.39685pt x 187.6743pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Overfull \hbox (1.14418pt too wide) in paragraph at lines 782--782
-[]|\OT1/txr/m/n/8 80per| 
- []
+ [4 <./images/workloadmodel1300dpi.png>]
+<./images/publications1.png, id=33, 562.1pt x 413.545pt>
+File: ./images/publications1.png Graphic file (type png)
 
+<use ./images/publications1.png>
+Package pdftex.def Info: ./images/publications1.png used on input line 571.
+(pdftex.def)             Requested size: 258.0pt x 189.81021pt.
 
-Overfull \hbox (1.14418pt too wide) in paragraph at lines 782--782
-[]|\OT1/txr/m/n/8 70per| 
+Overfull \hbox (6.0pt too wide) in paragraph at lines 571--572
+[][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<./images/nonfunctional.png, id=34, 569.12625pt x 402.50375pt>
+File: ./images/nonfunctional.png Graphic file (type png)
+
+<use ./images/nonfunctional.png>
+Package pdftex.def Info: ./images/nonfunctional.png used on input line 580.
+(pdftex.def)             Requested size: 258.0pt x 182.47005pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 580--581
+[][] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7 <./images/generationcomparative.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 867--867
+[5 <./images/workloadmodel2300dpi.png> <./images/publications1.png> <./images/n
+onfunctional.png>]
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no ™ in font txr!
+ [6]
+<./images/metaheuristc2.png, id=45, 509.87338pt x 274.94847pt>
+File: ./images/metaheuristc2.png Graphic file (type png)
+
+<use ./images/metaheuristc2.png>
+Package pdftex.def Info: ./images/metaheuristc2.png used on input line 693.
+(pdftex.def)             Requested size: 258.0pt x 139.13106pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 693--694
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 729--729
 []|\OT1/txr/bx/n/8 Functional
  []
 
 
-Overfull \hbox (51.98338pt too wide) in paragraph at lines 868--868
+Overfull \hbox (51.98338pt too wide) in paragraph at lines 730--730
 []|$[]$| 
  []
 
 
-Overfull \hbox (51.98338pt too wide) in paragraph at lines 868--868
+Overfull \hbox (51.98338pt too wide) in paragraph at lines 730--730
 []|$[]$| 
  []
 
 
-Overfull \hbox (51.98338pt too wide) in paragraph at lines 868--868
+Overfull \hbox (51.98338pt too wide) in paragraph at lines 730--730
 []|$[]$| 
  []
 
 
-Overfull \hbox (17.45993pt too wide) in paragraph at lines 870--870
+Overfull \hbox (17.45993pt too wide) in paragraph at lines 732--732
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 870--870
+Underfull \hbox (badness 10000) in paragraph at lines 732--732
 
  []
 
 
-Overfull \hbox (51.98338pt too wide) in paragraph at lines 870--870
+Overfull \hbox (51.98338pt too wide) in paragraph at lines 732--732
 []|$[]$|| 
  []
 
 
-Overfull \hbox (17.45993pt too wide) in paragraph at lines 871--871
+Overfull \hbox (17.45993pt too wide) in paragraph at lines 733--733
 []|$[]$| 
  []
 
 
-Underfull \hbox (badness 4168) in paragraph at lines 871--871
+Underfull \hbox (badness 4168) in paragraph at lines 733--733
 \OT1/txr/m/n/5 Wegener et al., 1996 and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 871--871
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
 
  []
 
 
-Overfull \hbox (10.70244pt too wide) in paragraph at lines 871--871
+Overfull \hbox (10.70244pt too wide) in paragraph at lines 733--733
 []|$[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 871--871
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
 \OT1/txr/m/n/5 Wegener and Grocht-mann,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 871--871
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
 
  []
 
 
-Overfull \hbox (10.70244pt too wide) in paragraph at lines 871--871
+Overfull \hbox (10.70244pt too wide) in paragraph at lines 733--733
 []|$[]$| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 871--871
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
 
  []
 
 
-Overfull \hbox (10.70244pt too wide) in paragraph at lines 871--871
+Overfull \hbox (10.70244pt too wide) in paragraph at lines 733--733
 []|$[]$|| 
  []
 
 
-Overfull \hbox (17.45993pt too wide) in paragraph at lines 872--872
+Overfull \hbox (17.45993pt too wide) in paragraph at lines 734--734
 []|$[]$| 
  []
 
 
-Overfull \hbox (10.70244pt too wide) in paragraph at lines 872--872
+Overfull \hbox (10.70244pt too wide) in paragraph at lines 734--734
 []|$[]$|| 
  []
 
 
-Overfull \hbox (17.45993pt too wide) in paragraph at lines 873--873
+Overfull \hbox (17.45993pt too wide) in paragraph at lines 735--735
 []|$[]$| 
  []
 
 
-Overfull \hbox (10.70244pt too wide) in paragraph at lines 873--873
+Overfull \hbox (10.70244pt too wide) in paragraph at lines 735--735
 []|$[]$|| 
  []
 
 
-Overfull \hbox (17.45993pt too wide) in paragraph at lines 874--874
+Overfull \hbox (17.45993pt too wide) in paragraph at lines 736--736
 []|$[]$| 
  []
 
 
-Overfull \hbox (10.70244pt too wide) in paragraph at lines 874--874
+Overfull \hbox (10.70244pt too wide) in paragraph at lines 736--736
 []|$[]$|| 
  []
 
 
-Overfull \hbox (17.45993pt too wide) in paragraph at lines 876--877
+Overfull \hbox (17.45993pt too wide) in paragraph at lines 738--739
 []|[]| 
  []
 
 
-Overfull \hbox (10.70244pt too wide) in paragraph at lines 877--877
+Overfull \hbox (10.70244pt too wide) in paragraph at lines 739--739
 []|$[]$| 
  []
 
-[8]
-Underfull \hbox (badness 2359) in paragraph at lines 910--910
-[]\OT1/txr/m/n/10 Table VI: |Main dif-fer-ences be-tween Ale-sio's [[]] and
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./images/metaheuristc2.png>]
+Underfull \hbox (badness 3396) in paragraph at lines 772--772
+[]\OT1/txr/m/n/10 Table II: |Main dif-fer-ences be-tween Ale-sio's [[]] and
  []
 
-(/Users/naubergois/ArtigoCLEI/.texpadtmp/bare_conf.bbl
+
+Underfull \vbox (badness 5756) has occurred while \output is active []
+
+ [8]
+<./images/independ.png, id=54, 354.23682pt x 268.49918pt>
+File: ./images/independ.png Graphic file (type png)
+
+<use ./images/independ.png>
+Package pdftex.def Info: ./images/independ.png used on input line 799.
+(pdftex.def)             Requested size: 258.0pt x 195.56438pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 799--800
+[][] 
+ []
+
+<./images/collaborative.png, id=55, 654.445pt x 302.12875pt>
+File: ./images/collaborative.png Graphic file (type png)
+
+<use ./images/collaborative.png>
+Package pdftex.def Info: ./images/collaborative.png used on input line 804.
+(pdftex.def)             Requested size: 258.0pt x 119.10674pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 804--805
+[][] 
+ []
+
+<./images/genomerepresentation1.png, id=56, 600.2425pt x 559.08875pt>
+File: ./images/genomerepresentation1.png Graphic file (type png)
+
+<use ./images/genomerepresentation1.png>
+Package pdftex.def Info: ./images/genomerepresentation1.png used on input line 
+816.
+(pdftex.def)             Requested size: 258.0pt x 240.31816pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 816--817
+[][] 
+ []
+
+<./images/TabuNE2.png, id=57, 561.09625pt x 422.57875pt>
+File: ./images/TabuNE2.png Graphic file (type png)
+
+<use ./images/TabuNE2.png>
+Package pdftex.def Info: ./images/TabuNE2.png used on input line 825.
+(pdftex.def)             Requested size: 258.0pt x 194.30475pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 825--826
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 3449) has occurred while \output is active []
+
+ [9 <./images/independ.png> <./images/collaborative.png> <./images/genomerepres
+entation1.png>] <./images/iadapter1.png, id=64, 572.1375pt x 676.5275pt>
+File: ./images/iadapter1.png Graphic file (type png)
+
+<use ./images/iadapter1.png>
+Package pdftex.def Info: ./images/iadapter1.png used on input line 867.
+(pdftex.def)             Requested size: 258.0pt x 305.07457pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 867--868
+[][] 
+ []
+
+<./images/lifecycle2.png, id=65, 488.82625pt x 440.64626pt>
+File: ./images/lifecycle2.png Graphic file (type png)
+
+<use ./images/lifecycle2.png>
+Package pdftex.def Info: ./images/lifecycle2.png used on input line 879.
+(pdftex.def)             Requested size: 258.0pt x 232.57318pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 879--880
+[][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10 <./images/TabuNE2.png> <./images/iadapter1.png>]
+<./images/tela1iadapter.png, id=71, 997.7275pt x 674.52pt>
+File: ./images/tela1iadapter.png Graphic file (type png)
+
+<use ./images/tela1iadapter.png>
+Package pdftex.def Info: ./images/tela1iadapter.png used on input line 889.
+(pdftex.def)             Requested size: 258.0pt x 174.41388pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 889--890
+[][] 
+ []
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+LaTeX Font Info:    Try loading font information for OT1+txtt on input line 921
+.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/txfonts/ot1txtt.fd
+File: ot1txtt.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OT1/txtt/m/it' in size <7> not available
+(Font)              Font shape `OT1/txtt/m/sl' tried instead on input line 929.
+
+ [11 <./images/lifecycle2.png> <./images/tela1iadapter.png>]
+<./images/generationcomparative.png, id=80, 953.54669pt x 505.79515pt>
+File: ./images/generationcomparative.png Graphic file (type png)
+
+<use ./images/generationcomparative.png>
+Package pdftex.def Info: ./images/generationcomparative.png used on input line 
+1066.
+(pdftex.def)             Requested size: 258.0pt x 136.85207pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1066--1068
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no â in font txr!
+Missing character: There is no ‰ in font txr!
+Missing character: There is no ¤ in font txr!
+Missing character: There is no â in font txr!
+Missing character: There is no ‰ in font txr!
+Missing character: There is no ¤ in font txr!
+[12 <./images/generationcomparative.png>]
+Overfull \hbox (0.97354pt too wide) in paragraph at lines 1163--1163
+[]|\OT1/txr/m/n/8 Id| 
+ []
+
+
+Overfull \hbox (1.14418pt too wide) in paragraph at lines 1163--1163
+[]|\OT1/txr/m/n/8 90per| 
+ []
+
+
+Overfull \hbox (1.14418pt too wide) in paragraph at lines 1163--1163
+[]|\OT1/txr/m/n/8 80per| 
+ []
+
+
+Overfull \hbox (1.14418pt too wide) in paragraph at lines 1163--1163
+[]|\OT1/txr/m/n/8 70per| 
+ []
+
+[13] (/Users/naubergois/ArtigoCLEIJournal/.texpadtmp/bare_conf.bbl
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
-[9]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--74
-\OT1/txr/m/n/8 / / scholar . google . com / scholar ? hl = en \OMS/txsy/m/n/8 n
- \OT1/txr/m/n/8 &btnG = Search \OMS/txsy/m/n/8 n \OT1/txr/m/n/8 &q = intitle :
- []
-
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--83
+Underfull \hbox (badness 10000) in paragraph at lines 70--76
 \OT1/txr/m/n/8 / / www . amazon . com / Performance-[]Testing-[]Guidance-[]Web-
 []Applications /
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--159
-\OT1/txr/m/n/8 viewdoc / download ? doi = 10 . 1 . 1 . 52 . 9891 \OMS/txsy/m/n/
-8 n \OT1/txr/m/n/8 &rep = rep1 \OMS/txsy/m/n/8 n \OT1/txr/m/n/8 &type = pdfhttp
- :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--159
-\OT1/txr/m/n/8 / / citeseerx . ist . psu . edu / viewdoc / summary ? doi = 10 .
- 1 . 1 . 52 . 9891http :
- []
-
-)
+[14])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1298,32 +1481,36 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[10] (/Users/naubergois/ArtigoCLEI/.texpadtmp/bare_conf.aux) ) 
+[15
+
+] (/Users/naubergois/ArtigoCLEIJournal/.texpadtmp/bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
- 14751 strings out of 493089
- 255616 string characters out of 6134842
- 778862 words of memory out of 5000000
- 17987 multiletter control sequences out of 15000+600000
- 80055 words of font info for 168 fonts, out of 8000000 for 9000
+ 15940 strings out of 493089
+ 273552 string characters out of 6134842
+ 921181 words of memory out of 5000000
+ 19135 multiletter control sequences out of 15000+600000
+ 83774 words of font info for 175 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 53i,20n,97p,10408b,1271s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texli
-ve/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2015/texmf-dist/fon
-ts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/public/txfonts/rtxr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/txfonts/rtxsc.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txf
-onts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/tx
-tt.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2015/texmf-
-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on /Users/naubergois/ArtigoCLEI/.texpadtmp/bare_conf.pdf (10 pag
-es, 21796226 bytes).
+ 53i,20n,97p,10411b,1322s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/t
+exlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/txfonts/rtxr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/txfonts/rtxsc.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfon
+ts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txtt
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/urw/zapfding/uzdr.pfb>
+Output written on /Users/naubergois/ArtigoCLEIJournal/.texpadtmp/bare_conf.pdf 
+(15 pages, 10076014 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 139 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

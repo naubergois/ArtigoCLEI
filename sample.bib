@@ -8,19 +8,96 @@
 %% Saved with string encoding Unicode (UTF-8) 
 
 
+@book{talbi2009metaheuristics,
+  title={Metaheuristics: from design to implementation},
+  author={Talbi, El-Ghazali},
+  volume={74},
+  year={2009},
+  publisher={John Wiley \& Sons}
+}
+
+@article{Glover1986,
+abstract = {Tabu Search is a meta-heuristic that guides a local heuristic search procedure to explore the solution space beyond local optimality. One of the main components of Tabu Search of Tabu Search is its use of adaptive memory, which creates a more flexible search behavior.},
+author = {Glover, Fred and Mart{\'{i}}, Rafael},
+file = {:Users/naubergois/Downloads/ts2.pdf:pdf},
+journal = {Tabu Search},
+pages = {1--16},
+title = {{Tabu Search}},
+year = {1986}
+}
+
+
+
+
+@book{Halili2008,
+archivePrefix = {arXiv},
+arxivId = {arXiv:1011.1669v3},
+author = {Halili, Emily H.},
+booktitle = {PACKT Publishing},
+doi = {10.1017/CBO9781107415324.004},
+eprint = {arXiv:1011.1669v3},
+isbn = {9788578110796},
+issn = {1098-6596},
+keywords = {jmeter},
+pmid = {25246403},
+title = {{Apache JMeter: A practical beginner's guide to automated testing and performance measurement for your websites.}},
+year = {2008}
+}
+
+@article{Aleti2016,
+author = {Aleti, Aldeida and Moser, I. and Grunske, Lars},
+doi = {10.1007/s10515-016-0197-7},
+isbn = {1051501601},
+issn = {15737535},
+journal = {Automated Software Engineering},
+keywords = {Fitness landscape characterisation,Genetic algorithms,Test data generation},
+pages = {1--19},
+title = {{Analysing the fitness landscape of search-based software testing problems}},
+year = {2016}
+}
+
+
+@book{Jaziri2008,
+author = {Jaziri, Wassim},
+isbn = {9783902613349},
+pages = {294},
+title = {{Local Search Techniques: Focus on Tabu Search}},
+year = {2008}
+}
+
+
+@article{Blum2003,
+abstract = {The emergence of metaheuristics for solving difficult combinatorial optimization problems is one of the most notable achievements of the last two decades in operations research. This paper provides an account of the most recent developments in the field and identifies some common issues and trends. Examples of applications are also reported for vehicle routing and scheduling problems.},
+author = {Blum, C. and Roli, A.},
+doi = {10.1007/s10479-005-3971-7},
+isbn = {0254-5330},
+issn = {02545330},
+journal = {ACM Computing Surveys},
+keywords = {Combinatorial optimization,Metaheuristics,Unifying framework,Vehicle routing},
+number = {3},
+pages = {189--213},
+title = {{Metaheuristics in combinatorial optimization: overview and conceptual comparison}},
+volume = {35},
+year = {2003}
+}
+
+
+@incollection{raidl2010metaheuristic,
+  title={Metaheuristic hybrids},
+  author={Raidl, G{\"u}nther R and Puchinger, Jakob and Blum, Christian},
+  booktitle={Handbook of metaheuristics},
+  pages={469--496},
+  year={2010},
+  publisher={Springer}
+}
 
 @article{DiAlesio2014,
 	Abstract = {Real-Time Embedded Systems (RTES) in safety-critical domains, such as maritime and energy, must satisfy strict performance requirements to be deemed safe. Therefore, such systems have to be thoroughly tested to ensure their correct behavior even under the worst operating conditions. In this paper, we address the need of deriving worst case scenarios with respect to three common performance requirements, namely task deadlines, response time, and CPU usage. Specifically, we investigate whether this worst-case analysis can be effectively re-expressed as a Constrained Optimization Problem (COP) over the space of possible inputs to the system. Solving this problem means finding the sets of inputs that maximize the chance to violate performance requirements at runtime. Such inputs can in turn be used to test if the target RTES meets the expected performance even in the worst case. We develop an OPL model for IBM ILOG CP Optimizer that implements a task priority-based preemptive scheduling, and apply it to a case study from the maritime and energy domain. Our validation shows that (1) the input to our model can be provided with reasonable effort in an industrial setting, and (2) the COP effectively identifies test cases that maximize deadline misses, response time, and CPU usage.},
 	Author = {{Di Alesio}, Stefano and Nejati, Shiva and Briand, Lionel and Gotlieb, Arnaud},
 	Doi = {10.1007/978-3-319-10428-7{\_}58},
-	File = {:Users/naubergois/Documents/10.0000@www.researchgate.net@263361939 (1).pdf:pdf},
 	Journal = {Principles and Practice of Constraint Programming},
 	Pages = {813--830},
-	Title = {{Worst-Case Scheduling of Software Tasks -- A Constraint Optimization Model to Support Performance Testing}},
-	Url = {http://link.springer.com/10.1007/978-3-319-10428-7{\_}58},
-	Year = {2014},
-	Bdsk-Url-1 = {http://link.springer.com/10.1007/978-3-319-10428-7%7B%5C_%7D58},
-	Bdsk-Url-2 = {http://dx.doi.org/10.1007/978-3-319-10428-7%7B%5C_%7D58}}
+	Title = {{Worst-Case Scheduling of Software Tasks -- A Constraint Optimization Model to Support Performance Testing}},}
 
 @article{DiAlesio2013,
 	Abstract = {Safety-critical Real Time Embedded Systems (RT-ESs) are usually subject to strict timing and performance requirements that must be satisfied for the system to be deemed safe. In this paper, we use effective search strategies whose goal is finding worst case scenarios with respect to deadline misses. Such scenarios can in turn be used to test the target RTES and ensure that it satisfies its timing requirements even under worst case conditions. Specifically, we develop an approach based on Constraint Programming (CP) to automate the generation of test cases that reveal, or are likely to, task deadline misses. We evaluate it through a comparison with a state-of-the-art approach based on Genetic Algorithms (GA). In particular, we compare CP and GA in five case studies for efficiency, effectiveness, and scalability. Our experimental results show that, on the largest and more complex case studies, CP performs significantly better than GA. Furthermore, CP offers some advantages over GA, such as it guarantees a complete search when there is sufficient time, and, being deterministic, it doesn't rely on parameters that potentially have a significant effect on the search and therefore need to be tuned. Hence, we conclude that our results are encouraging and suggest this is an advantageous approach for stress testing of RTESs with respect to timing constraints.},
@@ -32,8 +109,7 @@
 	Keywords = {constraint pro-,real-time systems,stress testing},
 	Pages = {158--167},
 	Title = {{Stress testing of task deadlines: A constraint programming approach}},
-	Year = {2013},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1109/ISSRE.2013.6698915}}
+	Year = {2013}}
 
 @article{Alesio2015,
 	Author = {Alesio, Stefano D I and Briand, Lionel C and Nejati, Shiva and Gotlieb, Arnaud},
@@ -54,22 +130,17 @@
 	Journal = {Hybrid Metaheuristics (LNCS 4030)},
 	Pages = {1--12},
 	Title = {{A Unified View on Hybrid Metaheuristics}},
-	Year = {2006},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1007/11890584%7B%5C_%7D1}}
+	Year = {2006}}
 
 @article{Pohlheim2005,
 	Abstract = {Whereas the verification of non-safety-related embedded software typically focuses on demonstrating that the implementation fulfills its functional requirements, this is not sufficient for safety-relevant systems. In this case, the control software must also meet application- specific safety requirements.Safety requirements typically arise from the application of hazard and/or safety analysis techniques, e.g., FMEA, FTA or SHARD. During the downstream development process it must be shown that these requirements cannot be violated. This can be achieved utilizing different techniques. One way of providing evidence that violations of the safety properties identified cannot occur is to thoroughly test each of the safety requirements.This paper introduces Evolutionary Safety Testing (EST), a fully automated procedure for the safety testing of embedded control software. EST employs extended evolutionary algorithms in an optimization process which aggressively tries to find test data sequences that cause the test object to violate a given safety requirement.A compact description formalism for input sequences for safety testing is presented, which is compatible with description techniques used during other test process stages. This compact description allows 1) an efficient application of evolutionary algorithms (and other optimization techniques) and 2) the description of long test sequences necessary for the adequate stimulation of real-world systems. The objective function is designed in such a way that optimal values represent test data sequences which violate a given safety requirement. By means of repeated input sequence generation, software execution and the subsequent evaluation of the objective function each safety requirement is extensively tested.The use of EST for the safety testing of automotive control software is demonstrated using safety requirements of an adaptive cruise control (ACC) system.The EST approach can easily be integrated into an overall software test strategy which combines different test design techniques with specific test objectives.},
 	Author = {Pohlheim, Hartmut and Conrad, Mirko and Griep, Arne},
 	Doi = {10.4271/2005-01-0750},
-	File = {:Users/naubergois/Documents/PohlheimHConradMGriepA{\_}EvoSafetyTesting{\_}SAE2005.pdf:pdf},
 	Journal = {Analysis},
 	Number = {724},
 	Pages = {804----814},
 	Title = {{Evolutionary Safety Testing of Embedded Control Software by Automatically Generating Compact Test Data Sequences}},
-	Url = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.62.6557{\&}amp;rep=rep1{\&}amp;type=pdf},
-	Year = {2005},
-	Bdsk-Url-1 = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.62.6557%7B%5C&%7Damp;rep=rep1%7B%5C&%7Damp;type=pdf},
-	Bdsk-Url-2 = {http://dx.doi.org/10.4271/2005-01-0750}}
+	Year = {2005}}
 
 @article{Gross2000,
 	Abstract = {Software architecture design approaches typically treat architecture as an abstraction of the implemented system. However, doing so means that the concepts, languages, notations, and tools for architecture are much more closely related to those of detailed design and implementation than to those of software requirements. Thus the gap between requirements and architecture represents a paradigm shift, while that between architecture and detailed design does not. Global Analysis, which is part of the Siemens Four Views architecture design approach, is a set of activities that serves to reduce the magnitude of this gap by guiding the architecture design process, capturing design rationale, and supporting traceability between requirements and architecture. In this paper Global Analysis is re-examined in light of five years of teaching it, reflecting on it, comparing it to other approaches, and examining how it was applied in four new systems. This experience confirms the value of the Global Analysis activities and the importance of capturing its results. In some cases the benefit went beyond that envisioned, and in other cases Global Analysis was not applied as expected. Because the templates that are provided for Global Analysis results have such a strong influence on how the activities were performed, this will be the focus of future changes},
@@ -83,11 +154,8 @@
 	Pages = {25--30},
 	Pmid = {18015135},
 	Title = {{Structural performance measure of evolutionary testing applied to worst-case timing of real-time systems}},
-	Url = {http://ieeexplore.ieee.org/xpls/abs{\_}all.jsp?arnumber=1504554},
 	Volume = {147},
-	Year = {2000},
-	Bdsk-Url-1 = {http://ieeexplore.ieee.org/xpls/abs%7B%5C_%7Dall.jsp?arnumber=1504554},
-	Bdsk-Url-2 = {http://dx.doi.org/10.1049/ip-sen}}
+	Year = {2000}}
 
 @article{Smeral2014,
 	Author = {\v{S}meral, Ron},
@@ -106,8 +174,7 @@
 	Pages = {41--53},
 	Title = {{Combining Metaheuristics and Exact Algorithms in Combinatorial Optimization : A Survey and Classification}},
 	Volume = {3562},
-	Year = {2005},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1007/11499305%5C_5}}
+	Year = {2005}}
 
 @article{Blum2012,
 	Abstract = {Research in metaheuristics for combinatorial optimization problems has lately experienced a noteworthy shift towards the hybridization of metaheuristics with other techniques for optimization. At the same time, the focus of research has changed from being rather algorithm-oriented to being more problem-oriented. Nowadays the focus is on solving the problem at hand in the best way possible, rather than promoting a certain metaheuristic. This has led to an enormously fruitful cross-fertilization of different areas of optimization. This cross-fertilization is documented by a multitude of powerful hybrid algorithms that were obtained by combining components from several different optimization techniques. Hereby, hybridization is not restricted to the combination of different metaheuristics but includes, for example, the combination of exact algorithms and metaheuristics. In this work we provide a survey of some of the most important lines of hybridization. The literature review is accompanied by the presentation of illustrative examples. {\copyright} 2010 Elsevier B.V. All rights reserved.},
@@ -122,11 +189,8 @@
 	Pages = {1--10},
 	Publisher = {Elsevier B.V.},
 	Title = {{Hybrid metaheuristics in combinatorial optimization: A tutorial}},
-	Url = {http://dx.doi.org/10.1016/j.asoc.2011.02.032},
 	Volume = {7505 LNCS},
-	Year = {2012},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1016/j.asoc.2011.02.032},
-	Bdsk-Url-2 = {http://dx.doi.org/10.1007/978-3-642-33860-1%5C_1}}
+	Year = {2012}}
 
 @article{Wang2010,
 	Author = {Wang, Xingen and Zhou, Bo and Li, Wei},
@@ -137,10 +201,7 @@
 	Keywords = {load model,load testing,markov chains,model,performance engineering,usage},
 	Pages = {483--490},
 	Title = {{Model Based Load Testing of Web Applications}},
-	Url = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5634372},
-	Year = {2010},
-	Bdsk-Url-1 = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=5634372},
-	Bdsk-Url-2 = {http://dx.doi.org/10.1109/ISPA.2010.24}}
+	Year = {2010}}
 
 @book{Smith:2012qr,
 	Author = {Smith, J.~M. and Jones, A.~B.},
@@ -162,7 +223,6 @@
 
 @article{Tlili1917,
 	Author = {Tlili, Marouane and Wappler, Stefan and Sthamer, Harmen},
-	File = {:Users/naubergois/Dropbox/p1917.pdf:pdf},
 	Isbn = {1595931864},
 	Journal = {Technology},
 	Keywords = {daimler-,harmen,sthamer},
@@ -173,11 +233,9 @@
 @phdthesis{Jiang2010,
 	Author = {Jiang, ZM},
 	Booktitle = {\ldots symposium on Software testing and analysis},
-	File = {:Users/naubergois/Downloads/ZhenMingJiang\_PhDThesis.pdf:pdf},
 	Title = {{Automated analysis of load testing results}},
 	Url = {http://dl.acm.org/citation.cfm?id=1831726},
-	Year = {2010},
-	Bdsk-Url-1 = {http://dl.acm.org/citation.cfm?id=1831726}}
+	Year = {2010}}
 
 @article{Jiang2009,
 	Abstract = {The goal of a load test is to uncover functional and per- formance problems of a system under load. Performance problems refer to the situations where a system suffers from unexpectedly high response time or low throughput. It is difficult to detect performance problems in a load test due to the absence of formally-defined performance objectives and the large amount of data that must be examined. In this paper, we present an approach which automati- cally analyzes the execution logs of a load test for perfor- mance problems. We first derive the system's performance baseline from previous runs. Then we perform an in-depth performance comparison against the derived performance baseline. Case studies show that our approach produces few false alarms (with a precision of 77\%) and scales well to large industrial systems.},
@@ -199,21 +257,17 @@
 	Pages = {957--976},
 	Publisher = {Elsevier B.V.},
 	Title = {{A systematic review of search-based testing for non-functional system properties}},
-	Url = {http://dx.doi.org/10.1016/j.infsof.2008.12.005},
 	Volume = {51},
-	Year = {2009},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1016/j.infsof.2008.12.005}}
+	Year = {2009}}
 
 @article{Stations,
 	Author = {{Wegener, Joachim and Pitschinetz, Roman and Sthamer}, Harmen},
-	File = {:Users/naubergois/Dropbox/icse2000.pdf:pdf},
 	Journal = {Proceedings of the 1st International Workshop on Automated Program Analysis, Testing and Verification (WAPATV'00)},
 	Title = {{Automated Testing of Real-Time Tasks}},
 	Year = {2000}}
 
 @article{Nevedrov2007,
 	Author = {Nevedrov, Dmitri},
-	File = {:home/74397176353/Using-JMeter-to-Performance-Test-Web-Services.pdf:pdf},
 	Pages = {1--11},
 	Title = {{Using JMeter to Performance Test Web Services}},
 	Year = {2007}}
@@ -247,8 +301,7 @@
 	Isbn = {0-7695-2536-9},
 	Issn = {1052-8725},
 	Title = {{Realistic load testing of Web applications}},
-	Year = {2006},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1109/CSMR.2006.43}}
+	Year = {2006}}
 
 @phdthesis{Luiz2011,
 	Author = {Luiz, Artur and Freitas, Cunha and Prof, Orientadora and Vieira, Renata},
@@ -283,7 +336,6 @@
 @article{Garousi2010,
 	Author = {Garousi, Vahid},
 	Doi = {10.1109/TSE.2010.5},
-	File = {:Users/naubergois/Downloads/2009\_TSE\_SBSE.pdf:pdf},
 	Issn = {0098-5589},
 	Journal = {IEEE Transactions on Software Engineering},
 	Keywords = {empirical analysis,genetic algorithms,search-based testing,stress testing,test automation,test tools},
@@ -292,8 +344,7 @@
 	Pages = {778--797},
 	Title = {{A Genetic Algorithm-Based Stress Test Requirements Generator Tool and Its Empirical Evaluation}},
 	Volume = {36},
-	Year = {2010},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1109/TSE.2010.5}}
+	Year = {2010}}
 
 @inproceedings{Avritzer1993d,
 	Address = {New York, NY, USA},
@@ -306,27 +357,21 @@
 	Publisher = {ACM},
 	Series = {ISSTA '93},
 	Title = {{Load Testing Software Using Deterministic State Testing}},
-	Year = {1993},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1145/154183.154244}}
+	Year = {1993}}
 
 @article{Avritzer1994,
 	Address = {New York, New York, USA},
 	Author = {Avritzer, Alberto and Weyuker, EJ},
 	Doi = {10.1145/186258.186507},
-	File = {:Users/naubergois/Dropbox/OPR/papers/p44-avritzer.pdf:pdf},
 	Isbn = {0897916832},
 	Journal = {\ldots international symposium on Software testing \ldots},
 	Pages = {44--57},
 	Publisher = {ACM Press},
 	Title = {{Generating test suites for software load testing}},
-	Url = {http://portal.acm.org/citation.cfm?doid=186258.186507 http://dl.acm.org/citation.cfm?id=186507},
-	Year = {1994},
-	Bdsk-Url-1 = {http://portal.acm.org/citation.cfm?doid=186258.186507%20http://dl.acm.org/citation.cfm?id=186507},
-	Bdsk-Url-2 = {http://dx.doi.org/10.1145/186258.186507}}
+	Year = {1994}}
 
 @article{Garousi2006,
 	Author = {Garousi, Vahid},
-	File = {:Users/naubergois/Downloads/28214.pdf:pdf},
 	Isbn = {9780494262252},
 	Number = {August},
 	Title = {{Traffic-aware Stress Testing of Distributed Real-Time Systems based on UML Models using Genetic Algorithms}},
@@ -334,13 +379,10 @@
 
 @article{Santos2011,
 	Author = {Santos, I de Sousa and Santos, AR and Neto, PA dos Santos},
-	File = {:Users/naubergois/Library/Application Support/Mendeley Desktop/Downloaded/Santos, Santos, Neto - 2011 - Reusing Functional Testing in order to Decrease Performance and Stress Testing Costs.pdf:pdf},
 	Journal = {SEKE},
 	Keywords = {- software testing,data generation,experimental study,however,limitations in,non-functional,of performance and stress,requirements,scripts,scripts from functional testing,testing,tool enabled the generation},
 	Title = {{Reusing Functional Testing in order to Decrease Performance and Stress Testing Costs.}},
-	Url = {http://www.ksi.edu/seke/Proceedings/seke11/225\_Pedro\_Santos\_Neto.pdf},
-	Year = {2011},
-	Bdsk-Url-1 = {http://www.ksi.edu/seke/Proceedings/seke11/225%5C_Pedro%5C_Santos%5C_Neto.pdf}}
+	Year = {2011}}
 
 @book{bernard2012foundations,
 	Author = {Bernard, Pierre},
@@ -350,7 +392,6 @@
 
 @article{Abu-nimeh2001,
 	Author = {Abu-nimeh, Saeed and Nair, Suku and Marchetti, Marco},
-	File = {:Users/naubergois/Library/Application Support/Mendeley Desktop/Downloaded/Abu-nimeh, Nair, Marchetti - 2001 - Avoiding Denial of Service via Stress Testing ∗.pdf:pdf},
 	Keywords = {bandwidth throttle,denial of service,ramp-up time,response time,stress-testing,think,time,ttfb,ttlb},
 	Title = {{Avoiding Denial of Service via Stress Testing}},
 	Year = {2001}}
@@ -358,36 +399,28 @@
 @article{Garousi2008,
 	Author = {Garousi, Vahid},
 	Doi = {10.1145/1389095.1389433},
-	File = {:Users/naubergois/Dropbox/p1743.pdf:pdf},
 	Isbn = {9781605581309},
 	Journal = {Proceedings of the 10th annual conference on Genetic and evolutionary computation - GECCO '08},
 	Keywords = {empirical analysis,genetic algorithms,stress testing},
 	Pages = {1743},
 	Title = {{Empirical analysis of a genetic algorithm-based stress test technique}},
-	Url = {http://portal.acm.org/citation.cfm?doid=1389095.1389433},
-	Year = {2008},
-	Bdsk-Url-1 = {http://portal.acm.org/citation.cfm?doid=1389095.1389433},
-	Bdsk-Url-2 = {http://dx.doi.org/10.1145/1389095.1389433}}
+	Year = {2008}}
 
 @article{Chakravarty2010,
 	Author = {Chakravarty, A},
 	Journal = {Information Technology: New Generations ( \ldots},
 	Title = {{Stress testing an ai based web service: A case study}},
-	Url = {http://ieeexplore.ieee.org/xpls/abs\_all.jsp?arnumber=5501500},
-	Year = {2010},
-	Bdsk-Url-1 = {http://ieeexplore.ieee.org/xpls/abs%5C_all.jsp?arnumber=5501500}}
+	Year = {2010}}
 
 @article{Acharya2009,
 	Author = {Acharya, Mithun and Kommineni, Vamshidhar},
 	Doi = {10.1109/ASE.2009.95},
-	File = {:Users/naubergois/Dropbox/10.1.1.182.1599.pdf:pdf},
 	Isbn = {9780769538914},
 	Issn = {1527-1366},
 	Journal = {ASE2009 - 24th IEEE/ACM International Conference on Automated Software Engineering},
 	Pages = {409--420},
 	Title = {{Mining health models for performance monitoring of services}},
-	Year = {2009},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1109/ASE.2009.95}}
+	Year = {2009}}
 
 @article{Catelani2011,
 	Doi = {10.1016/j.csi.2010.06.006},
@@ -400,16 +433,13 @@
 	Pages = {152--158},
 	Publisher = {Elsevier B.V.},
 	Title = {{Software automated testing: A solution to maximize the test plan coverage and to increase software reliability and quality in use}},
-	Url = {http://dx.doi.org/10.1016/j.csi.2010.06.006},
 	Volume = {33},
-	Year = {2011},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1016/j.csi.2010.06.006}}
+	Year = {2011}}
 
 @article{Wegener1997,
 	Abstract = {The development of real-time systems is an essential industrial activity whose importance is increasing. The most important analytical method to assure the quality of real-time systems is dynamic testing. Testing is the only method which examines the actual run-time behaviour of real-time software, based on an execution in the real application environment. Dynamic aspects like the duration of computations, the memory actually needed, or the synchronization of parallel processes are of major importance for the correct function of real-time systems and have to be tested. A comprehensive investigation of existing software test methods shows that they mostly concentrate on testing for functional correctness. They are not suited for an examination of temporal correctness which is essential to real-time systems. Very small systems show a wide range of different execution times. Therefore, existing test procedures must be supplemented by new methods, which concentrate on determining whether the system violates its specified timing constraints. In general, this means that outputs are produced too early or their computation takes too long. The task of the tester is to find the inputs with the longest or shortest execution times to check whether they produce a temporal error. If the search for such inputs is interpreted as a problem of optimization, genetic algorithms can be used to find the inputs with the longest or shortest execution times automatically. The fitness function is the execution time measured in processor cycles. Experiments using genetic algorithms on a number of programs with up to 1511 LOC and 843 integer input parameters have successfully identified new longer and shorter paths than had been found using random testing or systematic testing. Genetic algorithms are able therefore to check large programs and they show considerable promise in establishing the validity of the temporal behaviour of real-time software.},
 	Author = {Wegener, Joachim and Sthamer, Harmen and Jones, Bryan F and Eyres, David E},
 	Doi = {10.1023/A:1018551716639},
-	File = {:Users/naubergois/Downloads/10.1023@A@1018551716639.pdf:pdf},
 	Issn = {0963-9314, 1573-1367},
 	Journal = {Software Quality Journal},
 	Keywords = {embedded systems,genetic algorithms,real time systems,temporal behaviour,testing},
@@ -418,9 +448,7 @@
 	Title = {{Testing real-time systems using genetic algorithms}},
 	Url = {http://www.springerlink.com/index/uh26067rt3516765.pdf},
 	Volume = {6},
-	Year = {1997},
-	Bdsk-Url-1 = {http://www.springerlink.com/index/uh26067rt3516765.pdf},
-	Bdsk-Url-2 = {http://dx.doi.org/10.1023/A:1018551716639}}
+	Year = {1997}}
 
 @inproceedings{Alander,
 	Abstract = {In this work we are studying possibilities to test software using genetic algorithm search. The idea is to produce test cases in order to find problematic situations like processing time extremes. The proposed test method comes under the heading of automated dynamic stress testing. Keywords: genetic algorithms, software engineering, dynamic stress testing 1 Introduction Real-time software is increasingly applied to products in which failure may have severe consequences, thus the requirements for correctness and reliability are getting higher, too. In very reliable sequential programs, the rate of errors should be less than 10 errors/1000 lines of code, to avoid functional failure. Achieving this level is very labourious, because the amount of program testing work grows exponentially with code size. Testing software manually is slow, expensive and demands inventiveness. Automated testing can reduce both the time and costs needed for performing tests. Exhaustive test data generation is...},
@@ -428,26 +456,20 @@
 	Author = {Alander, Jarmo T. JT and Mantere, Timo and Turunen, Pekka},
 	Booktitle = {Neural Nets and Genetic Algorithms},
 	Date-Modified = {2015-12-05 06:11:49 +0000},
-	File = {:Users/naubergois/Library/Application Support/Mendeley Desktop/Downloaded/88P742PF/Alander et al. - Genetic Algorithm Based Software Testing.pdf:pdf;:Users/naubergois/Library/Application Support/Mendeley Desktop/Downloaded/7TPMHRDX/summary.html:html},
 	Title = {{Genetic Algorithm Based Software Testing}},
-	Url = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.52.9891\&rep=rep1\&type=pdf http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.9891 http://link.springer.com/chapter/10.1007/978-3-7091-6492-1\_71},
-	Year = {1998},
-	Bdsk-Url-1 = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.52.9891%5C&rep=rep1%5C&type=pdf%20http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.9891%20http://link.springer.com/chapter/10.1007/978-3-7091-6492-1%5C_71}}
+	Year = {1998}}
 
 @article{Barros2007,
 	Author = {Barros, Marcelo De and Shiau, Jing},
 	File = {:Users/naubergois/Library/Application Support/Mendeley Desktop/Downloaded/Barros, Shiau - 2007 - Web services wind tunnel On performance testing large-scale stateful web services.pdf:pdf},
 	Journal = {\ldots and Networks, 2007. \ldots},
 	Title = {{Web services wind tunnel: On performance testing large-scale stateful web services}},
-	Url = {http://ieeexplore.ieee.org/xpls/abs\_all.jsp?arnumber=4273012},
-	Year = {2007},
-	Bdsk-Url-1 = {http://ieeexplore.ieee.org/xpls/abs%5C_all.jsp?arnumber=4273012}}
+	Year = {2007}}
 
 @article{Weyuker2000,
 	Abstract = {An approach to software performance testing is discussed. A case study describing the experience of using this approach for testing the performance of a system used as a gateway in a large industrial client/server transaction processing application is presented.},
 	Author = {Weyuker, EJ and Vokolos, FI},
 	Doi = {10.1109/32.888628},
-	File = {:Users/naubergois/Downloads/CaseStudy\_TSEperformance.pdf:pdf},
 	Issn = {0098-5589},
 	Journal = {IEEE transactions on software engineering},
 	Keywords = {Software performance testing,performance testing.,program testing,software testing},
@@ -456,17 +478,13 @@
 	Pages = {1147--1156},
 	Shorttitle = {Experience with Performance Testing of Software Sy},
 	Title = {{Experience with performance testing of software systems: issues, an approach, and case study}},
-	Url = {http://dx.doi.org/10.1109/32.888628 http://www.computer.org/csdl/trans/ts/2000/12/e1147.pdf},
 	Volume = {26},
-	Year = {2000},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1109/32.888628%20http://www.computer.org/csdl/trans/ts/2000/12/e1147.pdf},
-	Bdsk-Url-2 = {http://dx.doi.org/10.1109/32.888628}}
+	Year = {2000}}
 
 @article{Raiha2010,
 	Abstract = {This survey investigates search-based approaches to software design. The basics of the most popular meta-heuristic algorithms are presented as background to the search-based viewpoint. Software design is considered from a wide viewpoint, including topics that can also be categorized as software maintenance or re-engineering. Search-based approaches have been used in research from the high architecture design level to software clustering and finally software refactoring. Enhancing and predicting software quality with search-based methods is also taken into account as a part of the design process. The background for the underlying software engineering problems is discussed, after which search-based approaches are presented. Summarizing remarks and tables collecting the fundamental issues of approaches for each type of problem are given. The choices regarding critical decisions, such as representation and fitness function, when used in meta-heuristic search algorithms, are emphasized and discussed in detail. Ideas for future research directions are also given. {\copyright} 2010 Elsevier Inc.},
 	Author = {R\"{a}ih\"{a}, Outi},
 	Doi = {10.1016/j.cosrev.2010.06.001},
-	File = {:Users/naubergois/Dropbox/1-s2.0-S1574013710000390-main.pdf:pdf},
 	Isbn = {15740137},
 	Issn = {15740137},
 	Journal = {Computer Science Review},
@@ -475,16 +493,13 @@
 	Pages = {203--249},
 	Publisher = {Elsevier Inc.},
 	Title = {{A survey on search-based software design}},
-	Url = {http://dx.doi.org/10.1016/j.cosrev.2010.06.001},
 	Volume = {4},
-	Year = {2010},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1016/j.cosrev.2010.06.001}}
+	Year = {2010}}
 
 @article{Mohamed2012,
 	Abstract = {With the recent rapid development of mobile devices in terms of processing power, memory and storage capabilities coupled with the advancements of wireless technology in terms of higher data transmission rates such as 3G and 4G, it has now become feasible to host Web services on mobile devices. In this paper we propose a lightweight framework for hosting Web services on mobile devices. We further evaluate and provide a comparative analysis for hosting RESTful Web services versus SOAP-based Web services on our framework. Our experimental results and analysis indicate that RESTful Web services are less resource-consuming and more efficient for the implementation and provisioning of Web services from resource-constrained mobile devices. ?? 2012 Published by Elsevier Ltd.},
 	Author = {Mohamed, KamalEldin and Wijesekera, Duminda},
 	Doi = {10.1016/j.procs.2012.06.095},
-	File = {:Users/naubergois/Dropbox/1-s2.0-S1877050912004528-main.pdf:pdf},
 	Isbn = {1877-0509},
 	Issn = {18770509},
 	Journal = {Procedia Computer Science},
@@ -492,10 +507,8 @@
 	Pages = {744--751},
 	Publisher = {Duminda Wijesekera},
 	Title = {{Performance analysis of web services on mobile devices}},
-	Url = {http://dx.doi.org/10.1016/j.procs.2012.06.095},
 	Volume = {10},
-	Year = {2012},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1016/j.procs.2012.06.095}}
+	Year = {2012}}
 
 @book{reeves1993modern,
 	Author = {Reeves, Colin R},
@@ -515,25 +528,20 @@
 	Pages = {200},
 	Publisher = {John Wiley \& Sons},
 	Title = {{The Art of Software Testing}},
-	Url = {http://books.google.com.br/books?id=GjyEFPkMCwcC http://scholar.google.com/scholar?hl=en\&btnG=Search\&q=intitle:The+Art+of+Software+Testing\#0},
-	Year = {2004},
-	Bdsk-Url-1 = {http://books.google.com.br/books?id=GjyEFPkMCwcC%20http://scholar.google.com/scholar?hl=en%5C&btnG=Search%5C&q=intitle:The+Art+of+Software+Testing%5C#0}}
+	Year = {2004}}
 
 @book{Erinle2013,
 	Author = {Erinle, Bayo},
 	File = {:Users/naubergois/Dropbox/OPR/papers/performance-testing-with-jmeter-2-9.pdf:pdf},
 	Isbn = {9781782165842},
 	Title = {{Performance Testing With JMeter 2.9}},
-	Url = {http://books.google.com/books?hl=en\&lr=\&id=fpWmv3wPT64C\&oi=fnd\&pg=PT8\&dq=Performance+Testing+with+JMeter+2.9\&ots=Uh6yp3HcIO\&sig=wfz5wY1KjRenuljBhWObSJlTmVA},
-	Year = {2013},
-	Bdsk-Url-1 = {http://books.google.com/books?hl=en%5C&lr=%5C&id=fpWmv3wPT64C%5C&oi=fnd%5C&pg=PT8%5C&dq=Performance+Testing+with+JMeter+2.9%5C&ots=Uh6yp3HcIO%5C&sig=wfz5wY1KjRenuljBhWObSJlTmVA}}
+	Year = {2013}}
 
 @misc{Corporation2007,
 	Abstract = {Performance Testing Guidance for Web Applications provides an end-to-end approach for implementing performance testing. Whether you are new to performance testing or looking for ways to improve your current performance-testing approach, you will gain insights that you can tailor to your specific scenarios.},
 	Address = {United States?},
 	Author = {Corporation, Microsoft},
 	Edition = {1 edition},
-	File = {:Users/naubergois/Downloads/PerfTestGuide.2007-08-27.pdf:pdf;:Users/naubergois/Library/Application Support/Mendeley Desktop/Downloaded/S6UIB7HA/bb924375.html:html},
 	Isbn = {9780735625709},
 	Language = {English},
 	Month = nov,
@@ -558,9 +566,7 @@
 	Number = {December},
 	Pages = {6--8},
 	Title = {{Correlating instrumentation data to system states : A building block for automated diagnosis and control performance forecasting automated performance diagnosis and performance management . The goal of the work is to develop and evaluate tools for offline}},
-	Url = {http://www.usenix.org/events/osdi04/tech/cohen.html},
-	Year = {2004},
-	Bdsk-Url-1 = {http://www.usenix.org/events/osdi04/tech/cohen.html}}
+	Year = {2004}}
 
 @article{Biolchini2005,
 	Author = {Biolchini, Jorge and Mian, Paula Gomes and Candida, Ana and Natali, Cruz},
@@ -572,12 +578,10 @@
 	Pages = {165--176},
 	Title = {{Systematic Review in Software Engineering}},
 	Volume = {679},
-	Year = {2005},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1007/978-3-540-70621-2}}
+	Year = {2005}}
 
 @article{Goncalves2014,
 	Author = {Gon\c{c}alves, Marcelo Can\'{a}rio},
-	File = {:Users/naubergois/Dropbox/Dissertacao.pdf:pdf},
 	Title = {{Um Processo de Infer\^{e}ncia de Desempenho para Apoiar o Planejamento da Capacidade de Aplica\c{c}\~{o}es na Nuvem Um Processo de Infer\^{e}ncia de Desempenho para Apoiar o Planejamento da Capacidade de Aplica\c{c}\~{o}es na Nuvem}},
 	Year = {2014}}
 
@@ -601,8 +605,7 @@
 	Publisher = {IEEE},
 	Title = {{A methodology to support load test analysis}},
 	Volume = {2},
-	Year = {2010},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1145/1810295.1810408}}
+	Year = {2010}}
 
 @article{Kuhn1997,
 	Abstract = {What makes a distributed system reliable? A study of failures in
@@ -628,8 +631,7 @@ in most system failures and resulting in an extremely reliable system
 	Pmid = {150},
 	Title = {{Sources of failure in the public switched telephone network}},
 	Volume = {30},
-	Year = {1997},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1109/2.585151}}
+	Year = {1997}}
 
 @article{McMinn2004,
 	Author = {McMinn, Philip and Court, Regent and Testing, Software and Street, Portobello},
@@ -642,8 +644,7 @@ in most system failures and resulting in an extremely reliable system
 	Pages = {1--58},
 	Title = {{Search-based software test data generation: a survey}},
 	Volume = {14},
-	Year = {2004},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1002/stvr.294}}
+	Year = {2004}}
 
 @article{DiLucca2006,
 	Author = {{Di Lucca}, Giuseppe a. and Fasolino, Anna Rita},
@@ -655,8 +656,19 @@ in most system failures and resulting in an extremely reliable system
 	Pages = {1172--1186},
 	Title = {{Testing Web-based applications: The state of the art and future trends}},
 	Volume = {48},
-	Year = {2006},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1016/j.infsof.2006.06.006}}
+	Year = {2006}}
+	
+@article{Harman2015,
+abstract = {Search Based Software Testing (SBST) formulates testing as an optimisation problem, which can be attacked using computational search techniques from the field of Search Based Software Engineering (SBSE). We present an analysis of the SBST research agenda1, focusing on the open problems and chal- lenges of testing non-functional properties, in particular a topic we call ‘Search Based Energy Testing' (SBET), Multi-objective SBST and SBST for Test Strategy Identification. We conclude with a vision of FIFIVERIFY tools, which would automatically find faults, fix them and verify the fixes. We explain why we think such FIFIVERIFY tools constitute an exciting challenge for the SBSE community that already could be within its reach.},
+author = {Harman, Mark and Jia, Yue and Zhang, Yuanyuan},
+isbn = {9781479971251},
+journal = {8th IEEE International Conference on Software Testing, Verification and Validation (ICST)},
+number = {Icst},
+title = {{Achievements , open problems and challenges for search based software testing}},
+url = {http://www0.cs.ucl.ac.uk/staff/mharman/icst15.pdf},
+year = {2015}
+}
+	
 
 @article{Anand2013,
 	Author = {Anand, Saswat and Burke, Edmund K. and Chen, Tsong Yueh and Clark, John and Cohen, Myra B. and Grieskamp, Wolfgang and Harman, Mark and Harrold, Mary Jean and McMinn, Phil},
@@ -667,8 +679,7 @@ in most system failures and resulting in an extremely reliable system
 	Pages = {1978--2001},
 	Title = {{An orchestrated survey of methodologies for automated software test case generation}},
 	Volume = {86},
-	Year = {2013},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1016/j.jss.2013.02.061}}
+	Year = {2013}}
 
 @inproceedings{Penta2007,
 	Author = {Penta, Massimiliano Di and Canfora, Gerardo and Esposito, Gianpiero},
@@ -702,8 +713,7 @@ in most system failures and resulting in an extremely reliable system
 	Pages = {156--166},
 	Publisher = {Ieee},
 	Title = {{Automatically finding performance problems with feedback-directed learning software testing}},
-	Year = {2012},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1109/ICSE.2012.6227197}}
+	Year = {2012}}
 
 @article{Barna2011,
 	Author = {Barna, Cornel and Litoiu, M and Ghanbari, H},
@@ -738,8 +748,7 @@ in most system failures and resulting in an extremely reliable system
 	Publisher = {Elsevier B.V.},
 	Title = {{A systematic review of search-based testing for non-functional system properties}},
 	Volume = {51},
-	Year = {2009},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1016/j.infsof.2008.12.005}}
+	Year = {2009}}
 
 @article{Mendoza2005a,
 	Author = {Mendoza, Valerie and Novick, Dg},
@@ -749,14 +758,12 @@ in most system failures and resulting in an extremely reliable system
 	Keywords = {training,usability},
 	Pages = {151--158},
 	Title = {{Usability over time}},
-	Year = {2005},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1145/1085313.1085348}}
+	Year = {2005}}
 
 @article{Glover1989,
 	Abstract = {This is the second half of a two part series devoted to the tabu search metastrategy for optimization problems. Part I introduced the fundamental ideas of tabu search as an approach for guiding other heuristics to overcome the limitations of local optimality, both in a deterministic and a probabilistic framework. Part I also reported successful applications from a wide range of settings, in which tabu search frequently made it possible to obtain higher quality solutions than previously obtained with competing strategies, generally with less computational effort. Part II, in this issue, examines refinements and more advanced aspects of tabu search. Following a brief review of notation, Part II introduces new dynamic strategies for managing tabu lists, allowing fuller exploitation of underlying evaluation functions. In turn, the elements of staged search and structured move sets are characterized, which bear on the issue of finiteness. Three ways of applying tabu search to the solution of integer programming problems are then described, providing connections also to certain nonlinear programming applications. Finally, the paper concludes with a brief survey of new applications of tabu search that have occurred since the developments reported in Part I. Together with additional comparisons with other methods on a wide body of problems, these include results of parallel processing implementations and the use of tabu search in settings ranging from telecommunications to neural networks.},
 	Author = {Glover, Fred},
 	Doi = {10.1287/ijoc.2.1.4},
-	File = {:Users/naubergois/Dropbox/TS - Part I-ORSA-aw.pdf:pdf},
 	Isbn = {079239965X},
 	Issn = {0899-1499},
 	Journal = {ORSA journal on Computing},
@@ -764,30 +771,24 @@ in most system failures and resulting in an extremely reliable system
 	Pages = {4--32},
 	Pmid = {2758},
 	Title = {{Tabu Search - Part II}},
-	Url = {http://joc.journal.informs.org/content/2/1/4.full.pdf},
 	Volume = {2 1},
-	Year = {1989},
-	Bdsk-Url-1 = {http://joc.journal.informs.org/content/2/1/4.full.pdf},
-	Bdsk-Url-2 = {http://dx.doi.org/10.1287/ijoc.2.1.4}}
+	Year = {1989}}
 
 @article{Kirkpatrick2007,
 	Author = {Kirkpatrick},
 	Doi = {10.1126/science.220.4598.671},
-	File = {:Users/naubergois/Dropbox/Kirkpatrick\_Sci\_1983.pdf:pdf},
 	Issn = {0036-8075},
 	Number = {4598},
 	Pages = {671--680},
 	Pmid = {17813860},
 	Title = {{Optimization by SA}},
 	Volume = {220},
-	Year = {2007},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1126/science.220.4598.671}}
+	Year = {2007}}
 
 @article{Goffe1994,
 	Abstract = {Many statistical methods rely on numerical optimization to estimate a model's parameters. Unfortunately, conventional algorithms sometimes fail. Even when they do converge, there is no assurance that they have found the global, rather than a local, optimum. We test a new optimization algorithm, simulated annealing, on four econometric problems and compare it to three common conventional algorithms. Not only can simulated annealing find the global optimum, it is also less likely to fail on difficult functions because it is a very robust algorithm. The promise of simulated annealing is demonstrated on the four econometric problems.},
 	Author = {Goffe, William L. and Ferrier, Gary D. and Rogers, John},
 	Doi = {10.1016/0304-4076(94)90038-8},
-	File = {:Users/naubergois/Dropbox/Golfe1999.pdf:pdf},
 	Isbn = {0304-4076},
 	Issn = {03044076},
 	Journal = {Journal of Econometrics},
@@ -796,8 +797,7 @@ in most system failures and resulting in an extremely reliable system
 	Pages = {65--99},
 	Title = {{Global optimization of statistical functions with simulated annealing}},
 	Volume = {60},
-	Year = {1994},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1016/0304-4076(94)90038-8}}
+	Year = {1994}}
 
 @phdthesis{tracey2000search,
 	Author = {Tracey, Nigel James},
@@ -814,12 +814,9 @@ in most system failures and resulting in an extremely reliable system
 @article{Tracey1998,
 	Abstract = {One of the major costs in a software project is the construction of test-data. This paper outlines a generalised test-case data generation framework based on optimisation techniques. The framework can incorporate a number of testing criteria, for both functional and non-functional properties. Application of the optimisation framework to testing specification failures and exception conditions is illustrated. The results of a number of small case studies are presented and show the efficiency and effectiveness of this dynamic optimisation-based approach to generating test-data},
 	Author = {Tracey, N J and Clark, J a and Mander, K C},
-	File = {:Users/naubergois/Dropbox/njt\_mar98.pdf:pdf},
 	Keywords = {QA 76 Software, computer programming,},
 	Title = {{Automated Programme Flaw Finding using Simulated Annealing}},
-	Url = {http://kar.kent.ac.uk/21679/},
-	Year = {1998},
-	Bdsk-Url-1 = {http://kar.kent.ac.uk/21679/}}
+	Year = {1998}}
 
 @article{Wegener1999,
 	Abstract = {For real-time systems, correct system functionality depends on
@@ -831,13 +828,11 @@ evolutionary testing. This paper illustrates results of the first
 industrial application of the evolutionary test},
 	Author = {Wegener, J. and Sthamer, H. and Pohlheim, H.},
 	Doi = {10.1109/REAL.1999.818852},
-	File = {:Users/naubergois/Dropbox/PohlheimH\_RealTimeEvoTest\_GECCO1999\_fullpaper.pdf:pdf},
 	Isbn = {0-7695-0475-2},
 	Issn = {1052-8725},
 	Journal = {Proceedings 20th IEEE Real-Time Systems Symposium (Cat. No.99CB37054)},
 	Title = {{Testing the temporal behavior of real-time tasks using extended evolutionary algorithms}},
-	Year = {1999},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1109/REAL.1999.818852}}
+	Year = {1999}}
 
 @article{Mueller1998,
 	Abstract = {The paper contrasts two methods to verify timing constraints of
@@ -859,8 +854,7 @@ for both worst-case and best-case execution times},
 	Isbn = {0-8186-8569-7},
 	Journal = {Proceedings. Fourth IEEE Real-Time Technology and Applications Symposium (Cat. No.98TB100245)},
 	Title = {{A comparison of static analysis and evolutionary testing for the verification of timing constraints}},
-	Year = {1998},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1109/RTTAS.1998.683198}}
+	Year = {1998}}
 
 @article{Puschner1998,
 	Abstract = {Analytically derived worst case execution time (WCET) bounds are
@@ -875,22 +869,18 @@ program under test. Experimental results show that GA based testing
 produces results of high quality},
 	Author = {Puschner, P. and Nossal, R.},
 	Doi = {10.1109/REAL.1998.739738},
-	File = {:Users/naubergois/Dropbox/rr-20-1998.pdf:pdf},
 	Isbn = {0-8186-9212-X},
 	Issn = {1052-8725},
 	Journal = {Proceedings 19th IEEE Real-Time Systems Symposium (Cat. No.98CB36279)},
 	Title = {{Testing the results of static worst-case execution-time analysis}},
-	Year = {1998},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1109/REAL.1998.739738}}
+	Year = {1998}}
 
 @article{J.WegenerK.GrimmM.GrochtmannH.Sthamer1996,
 	Author = {{J. Wegener, K. Grimm, M. Grochtmann, H. Sthamer}, B. Jones},
 	File = {:Users/naubergois/Dropbox/eurostar1996.pdf:pdf},
 	Journal = {EuroSTAR'96: Proceedings of the Fourth International Conference on Software Testing Analysis and Review},
 	Title = {{Systematic testing of real-time systems}},
-	Url = {http://update-it.com/documents/eurostar1996.pdf},
-	Year = {1996},
-	Bdsk-Url-1 = {http://update-it.com/documents/eurostar1996.pdf}}
+	Year = {1996}}
 
 @article{Gro,
 	Author = {Gro, Hans-Gerhard},
@@ -903,25 +893,20 @@ produces results of high quality},
 	Booktitle = {Proceedings of the International Conference on Information Technology: Prospects and Challenges in the 21st Century},
 	File = {:Users/naubergois/Dropbox/grossITPC03\_RealTime.pdf:pdf},
 	Title = {{An evaluation of dynamic, optimisation-based worst-case execution time analysis}},
-	Url = {http://update-it.com/documents/grossITPC03\_RealTime.pdf},
-	Year = {2003},
-	Bdsk-Url-1 = {http://update-it.com/documents/grossITPC03%5C_RealTime.pdf}}
+	Year = {2003}}
 
 @article{Briand2005,
 	Author = {Briand, Lionel C. and Labiche, Yvan and Shousha, Marwa},
 	Doi = {10.1145/1068009.1068183},
-	File = {:Users/naubergois/Dropbox/p1021.pdf:pdf},
 	Isbn = {1595930108},
 	Journal = {Proceedings of the 2005 conference on Genetic and evolutionary computation - GECCO '05},
 	Keywords = {genetic algorithms,schedulability theory},
 	Pages = {1021},
 	Title = {{Stress testing real-time systems with genetic algorithms}},
-	Year = {2005},
-	Bdsk-Url-1 = {http://dx.doi.org/10.1145/1068009.1068183}}
+	Year = {2005}}
 
 @article{Canfora,
 	Author = {Canfora, Gerardo and Penta, Massimiliano Di and Esposito, Raffaele and Villani, Maria Luisa},
-	File = {:Users/naubergois/Dropbox/gecco2005-qos.pdf:pdf},
 	Isbn = {1595930108},
 	Keywords = {aware composi-,oriented software engineering,qos,service},
 	Title = {{2005., Canfora, G., An approach for QoS-aware service composition based on genetic algorithms}}}
@@ -970,7 +955,6 @@ produces results of high quality},
 	Abstract = {Many industrial products are based on the use of embedded computer systems. Usually, these systems have to fulfil real-time requirements, and correct system functionality depends on their logical correctness as well as on their temporal correctness. in order to verify the temporal behavior of real-time systems, previous scientific work has, to a large extent, concentrated on static analysis techniques. Although these techniques offer the possibility of providing safe estimates of temporal behavior for certain cases, there are a number of cases in practice for which static analysis can not be easily applied. Furthermore, no commercial tools for timing analysis of real-world programs are available. Therefore, the developed systems have to be thoroughly tested in order to detect existing deficiencies in temporal behavior, as well as to strengthen the confidence in temporal correctness. An investigation of existing test methods shows that they mostly concentrate on testing for logical correctness. They are nor specialised in the examination of temporal correctness which is also essential to real-rime systems. For this reason, existing test procedures must be supplemented by new methods which concentrate on determining whether the system violates its specified timing constraints. Normally, a violation means that outputs are produced too early, or their computation takes too long. The task of the tester therefore is to find the input situations with the longest or shortest execution limes, in order to check whether they produce a temporal error. If the starch for such inputs is interpreted as a problem of optimization, evolutionary computation can be used to automatically find the inputs with the longest or shortest execution rimes. This automatic search for accurate test data by means of evolutionary computation is called evolutionary testing. Experiments using evolutionary testing on a number of programs with up to 1511 LOC and 5000 input parameters have successfully identified new longer and shorter execution times than had been found using other testing techniques. Evolutionary testing, therefore, seems to be a promising approach for the verification of timing constraints. A combination of evolutionary testing and systematic testing offers further opportunities to improve the test quality, and could lead to an effective test strategy for real-time systems.},
 	Author = {Wegener, J and Grochtmann, M},
 	Doi = {Doi 10.1023/A:1008096431840},
-	File = {:Users/naubergois/Documents/10.1023@A@1008096431840.pdf:pdf},
 	Isbn = {0922-6443},
 	Issn = {0922-6443},
 	Journal = {Real-Time Systems},
@@ -978,16 +962,12 @@ produces results of high quality},
 	Number = {3},
 	Pages = {275--298},
 	Title = {{Verifying timing constraints of real-time systems by means of evolutionary testing}},
-	Url = {<Go to ISI>://WOS:000077759900004},
 	Volume = {15},
-	Year = {1998},
-	Bdsk-Url-1 = {%3CGo%20to%20ISI%3E://WOS:000077759900004},
-	Bdsk-Url-2 = {http://dx.doi.org/10.1023/A:1008096431840}}
+	Year = {1998}}
 
 @book{Halili2008,
 	Abstract = {"This book introduces you to JMeter (version 2.3) and test automation, providing a step-by-step guide to testing with JMeter. You will learn how to measure the performance of a website using JMeter. While it discusses test automation generally, the bulk of this book gives specific, vivid, and easy-to-understand walkthroughs of JMeter's testing tools showing what they can do, and when and how to use them. Learn to load-test your website, test its functional behaviour, and measure its performance by implementing the features of Jmeter"--Resource description p.},
 	Author = {Halili, Emily H},
-	File = {:home/74397176353/Downloads/Packt.Emily.Halili.Apache.Jmeter.xxx.2008.pdf:pdf},
 	Isbn = {9786611737528 6611737529 9781847192967 1847192963 1847192955 9781847192950},
 	Title = {{Apache JMeter a practical beginner's guide to automated testing and performance measurement for your websites}},
 	Year = {2008}}

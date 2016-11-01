@@ -1,0 +1,79 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: AuthorInstructions2011-01.aux
+The style file: ../IEEEtran.bst
+Illegal, another \bibstyle command---line 211 of file AuthorInstructions2011-01.aux
+ : \bibstyle
+ :          {../IEEEtran}
+I'm skipping whatever remains of this command
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: ../sample.bib
+Repeated entry---line 968 of file ../sample.bib
+ : @book{Halili2008
+ :                 ,
+I'm skipping whatever remains of this entry
+-- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--missing school in Jiang2010
+Warning--empty journal in Sullivan
+Warning--empty year in Sullivan
+Warning--empty journal in Sandler2004
+Warning--missing publisher in Erinle2013
+Warning--missing publisher in Halili2008
+Warning--empty journal in Goncalves2014
+Warning--missing publisher in Jaziri2008
+Warning--empty author in Afzal2009
+Warning--empty journal in Garousi2006
+Warning--empty year in DiAlesio2014
+Warning--empty journal in Canfora
+Warning--empty year in Canfora
+Warning--empty journal in Tracey1998
+
+Done.
+You've used 45 entries,
+            4039 wiz_defined-function locations,
+            1086 strings with 15402 characters,
+and the built_in function-call counts, 27148 in all, are:
+= -- 2231
+> -- 573
+< -- 197
++ -- 303
+- -- 99
+* -- 1268
+:= -- 4323
+add.period$ -- 88
+call.type$ -- 45
+change.case$ -- 40
+chr.to.int$ -- 447
+cite$ -- 59
+duplicate$ -- 2055
+empty$ -- 2253
+format.name$ -- 126
+if$ -- 6152
+int.to.chr$ -- 0
+int.to.str$ -- 45
+missing$ -- 339
+newline$ -- 166
+num.names$ -- 44
+pop$ -- 818
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 2130
+stack$ -- 0
+substring$ -- 1086
+swap$ -- 1543
+text.length$ -- 48
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 45
+warning$ -- 14
+while$ -- 129
+width$ -- 47
+write$ -- 427
+(There were 2 error messages)
